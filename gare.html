@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gare ed Eventi — Il Dojo Catania</title>
+  <meta name="description" content="Cronaca di tutte le competizioni dell'A.S.D. Il Dojo Catania: Mondiali, Europei, World Games, Coppa Italia. Risultati, foto e rassegna stampa.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.ildojoartimarziali.it/gare.html">
+
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://www.ildojoartimarziali.it/gare.html">
+  <meta property="og:title"       content="Gare ed Eventi — Il Dojo Catania">
+  <meta property="og:description" content="Mondiali, Europei, World Games e Coppa Italia. Tutti i risultati del Dojo.">
+  <meta property="og:image"       content="https://www.ildojoartimarziali.it/assets/img_dojo/mizu_ryu.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+
+  <style>
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+    :root {
+      --ink:     #1a1108;
+      --red:     #C0190F;
+      --red-dk:  #8B1108;
+      --gold:    #B8932A;
+      --gold-lt: #D4AD4A;
+      --cream:   #F8F3EC;
+      --ash:     #E8E0D4;
+      --smoke:   #6B6258;
+      --white:   #ffffff;
+      --fd: 'Cinzel', serif;
+      --fb: 'Crimson Text', serif;
+    }
+    html { scroll-behavior:smooth; }
+    body { font-family:var(--fb); color:var(--ink); background:var(--cream); font-size:16px; line-height:1.65; }
+    img  { max-width:100%; display:block; }
+    a    { color:inherit; text-decoration:none; }
+
+    /* NAV */
+    #nav { position:sticky; top:0; z-index:900; display:flex; align-items:center; justify-content:space-between; height:60px; padding:0 32px; background:var(--ink); border-bottom:2px solid var(--red); }
+    .nav-logo { font-family:var(--fd); font-size:18px; font-weight:900; color:#fff; letter-spacing:3px; text-transform:uppercase; }
+    .nav-logo span { color:var(--gold); }
+    .nav-links { display:flex; gap:26px; list-style:none; }
+    .nav-links a { font-family:var(--fd); font-size:10px; letter-spacing:2px; text-transform:uppercase; color:rgba(255,255,255,.65); transition:color .2s; }
+    .nav-links a:hover, .nav-links a.active { color:var(--gold); }
+    #nav-cta { font-family:var(--fd); font-size:10px; letter-spacing:2px; text-transform:uppercase; background:var(--red); color:#fff; border:none; padding:10px 20px; cursor:pointer; }
+    .nav-toggle { display:none; background:none; border:none; cursor:pointer; flex-direction:column; gap:5px; }
+    .nav-toggle span { display:block; width:22px; height:2px; background:#fff; }
+    #mob-menu { display:none; position:fixed; inset:60px 0 0; background:var(--ink); z-index:899; padding:32px; flex-direction:column; gap:20px; }
+    #mob-menu.open { display:flex; }
+    #mob-menu a { font-family:var(--fd); font-size:14px; letter-spacing:3px; text-transform:uppercase; color:rgba(255,255,255,.7); border-bottom:1px solid rgba(255,255,255,.07); padding-bottom:16px; }
+
+    /* PAGE HEADER */
+    .page-hero { background:var(--ink); padding:72px 28px 80px; text-align:center; position:relative; overflow:hidden; }
+    .page-hero::before { content:''; position:absolute; inset:0; background:repeating-linear-gradient(45deg,transparent,transparent 40px,rgba(176,19,9,.04) 40px,rgba(176,19,9,.04) 41px); pointer-events:none; }
+    .ph-kamon { position:absolute; top:10px; right:28px; font-size:80px; font-family:serif; color:var(--gold); opacity:.06; user-select:none; }
+    .ph-eyebrow { font-family:var(--fd); font-size:10px; letter-spacing:5px; text-transform:uppercase; color:var(--red); margin-bottom:14px; }
+    .ph-title { font-family:var(--fd); font-size:clamp(32px,5vw,56px); font-weight:900; color:#fff; letter-spacing:6px; text-transform:uppercase; margin-bottom:10px; }
+    .ph-title span { color:var(--gold); }
+    .ph-sub { font-family:var(--fd); font-size:11px; letter-spacing:3px; text-transform:uppercase; color:var(--smoke); }
+
+    /* FILTERS */
+    .filters-bar { background:var(--white); border-bottom:1px solid var(--ash); padding:20px 28px; display:flex; align-items:center; gap:10px; flex-wrap:wrap; position:sticky; top:60px; z-index:800; }
+    .filters-label { font-family:var(--fd); font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--smoke); flex-shrink:0; margin-right:4px; }
+    .f-btn { font-family:var(--fd); font-size:9px; letter-spacing:2px; text-transform:uppercase; padding:6px 16px; background:transparent; color:var(--smoke); border:1px solid var(--ash); cursor:pointer; transition:all .2s; }
+    .f-btn:hover, .f-btn.active { background:var(--ink); color:var(--gold-lt); border-color:var(--ink); }
+    .f-count { font-family:var(--fd); font-size:9px; letter-spacing:2px; text-transform:uppercase; color:var(--smoke); margin-left:auto; }
+
+    /* GARE GRID */
+    .gare-section { padding:52px 28px 80px; max-width:1200px; margin:0 auto; }
+    .gare-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:28px; }
+
+    .g-card { background:var(--white); border:1px solid var(--ash); overflow:hidden; cursor:pointer; transition:transform .25s, box-shadow .25s; }
+    .g-card:hover { transform:translateY(-4px); box-shadow:0 14px 36px rgba(26,17,8,.13); }
+    .g-card[data-hidden="true"] { display:none; }
+
+    .g-img { position:relative; aspect-ratio:16/9; overflow:hidden; background:var(--ink); }
+    .g-img img { width:100%; height:100%; object-fit:cover; transition:transform .4s; }
+    .g-card:hover .g-img img { transform:scale(1.05); }
+    .g-flag { position:absolute; top:12px; right:12px; font-size:22px; }
+    .g-cat  { position:absolute; bottom:0; left:0; font-family:var(--fd); font-size:8px; letter-spacing:2px; text-transform:uppercase; background:var(--red); color:#fff; padding:5px 13px; }
+    .g-evidenza { position:absolute; top:12px; left:12px; font-family:var(--fd); font-size:8px; letter-spacing:1.5px; text-transform:uppercase; background:var(--gold); color:var(--ink); padding:4px 10px; }
+
+    .g-body { padding:22px; }
+    .g-date  { font-family:var(--fd); font-size:8px; letter-spacing:2px; text-transform:uppercase; color:var(--smoke); margin-bottom:8px; }
+    .g-title { font-family:var(--fd); font-size:13px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--ink); line-height:1.4; margin-bottom:10px; }
+    .g-intro { font-size:14px; color:var(--smoke); line-height:1.55; margin-bottom:14px; }
+    .g-medals { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:14px; }
+    .g-pill { font-family:var(--fd); font-size:8px; letter-spacing:1.5px; text-transform:uppercase; padding:3px 9px; }
+    .g-pill.oro     { background:rgba(184,147,42,.12); color:var(--gold); }
+    .g-pill.argento { background:rgba(0,0,0,.06); color:#666; }
+    .g-pill.bronzo  { background:rgba(184,115,51,.1); color:#b87333; }
+    .g-more { font-family:var(--fd); font-size:9px; letter-spacing:2px; text-transform:uppercase; color:var(--red); display:inline-flex; align-items:center; gap:6px; border-bottom:1px solid transparent; transition:border-color .2s; }
+    .g-more:hover { border-color:var(--red); }
+
+    /* LOAD MORE */
+    .load-more-wrap { text-align:center; margin-top:40px; }
+    .btn { display:inline-block; font-family:var(--fd); font-size:10px; letter-spacing:2.5px; text-transform:uppercase; padding:14px 32px; cursor:pointer; border:none; transition:opacity .2s; }
+    .btn:hover { opacity:.82; }
+    .btn-red { background:var(--red); color:#fff; }
+    .btn-out { background:transparent; color:var(--gold-lt); border:1px solid var(--gold); }
+    .no-more { font-family:var(--fd); font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--smoke); margin-top:14px; display:none; }
+
+    /* MODAL */
+    .modal-bg { display:none; position:fixed; inset:0; background:rgba(26,17,8,.88); z-index:2000; overflow-y:auto; padding:40px 20px; }
+    .modal-bg.open { display:flex; align-items:flex-start; justify-content:center; }
+    .modal { background:var(--cream); max-width:860px; width:100%; position:relative; }
+    .modal-close { position:absolute; top:14px; right:14px; background:var(--ink); color:var(--gold); border:none; font-family:var(--fd); font-size:10px; letter-spacing:2px; padding:8px 14px; cursor:pointer; z-index:10; }
+
+    /* modal hero */
+    .m-hero { position:relative; aspect-ratio:21/9; overflow:hidden; background:var(--ink); }
+    .m-hero img { width:100%; height:100%; object-fit:cover; }
+    .m-hero-over { position:absolute; inset:0; background:linear-gradient(to top, rgba(26,17,8,.85) 0%, transparent 50%); display:flex; align-items:flex-end; padding:28px 32px; gap:14px; }
+    .m-flag-big { font-size:36px; }
+    .m-hero-cat { font-family:var(--fd); font-size:9px; letter-spacing:3px; text-transform:uppercase; background:var(--red); color:#fff; padding:5px 13px; align-self:flex-end; }
+
+    /* modal body */
+    .m-body { padding:32px; }
+    .m-title { font-family:var(--fd); font-size:22px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--ink); margin-bottom:6px; line-height:1.3; }
+    .m-date  { font-family:var(--fd); font-size:9px; letter-spacing:2px; text-transform:uppercase; color:var(--smoke); margin-bottom:20px; }
+    .m-rule  { width:40px; height:2px; background:var(--gold); margin-bottom:22px; }
+    .m-text  { font-size:15px; color:var(--smoke); line-height:1.7; }
+    .m-text p { margin-bottom:14px; }
+
+    /* modal risultati */
+    .m-results { background:var(--white); border:1px solid var(--ash); padding:22px; margin:24px 0; }
+    .m-res-title { font-family:var(--fd); font-size:10px; letter-spacing:3px; text-transform:uppercase; color:var(--ink); margin-bottom:16px; }
+    .m-res-row { display:flex; align-items:center; gap:12px; padding:9px 0; border-bottom:1px solid var(--ash); }
+    .m-res-row:last-child { border-bottom:none; }
+    .m-res-med { font-size:20px; width:30px; flex-shrink:0; }
+    .m-res-cat { font-family:var(--fd); font-size:8px; letter-spacing:1.5px; text-transform:uppercase; color:var(--smoke); }
+    .m-res-ath { font-size:14px; font-style:italic; color:var(--ink); }
+
+    /* modal galleria */
+    .m-gallery { margin:24px 0; }
+    .m-gal-title { font-family:var(--fd); font-size:10px; letter-spacing:3px; text-transform:uppercase; color:var(--ink); margin-bottom:14px; }
+    .m-gal-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:4px; }
+    .m-gal-item { aspect-ratio:1; overflow:hidden; background:var(--ash); cursor:pointer; }
+    .m-gal-item img { width:100%; height:100%; object-fit:cover; transition:transform .3s; }
+    .m-gal-item:hover img { transform:scale(1.07); }
+
+    /* modal fonti */
+    .m-sources { margin-top:22px; }
+    .m-src-title { font-family:var(--fd); font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--smoke); margin-bottom:10px; }
+    .m-src-link { display:inline-block; font-family:var(--fd); font-size:8px; letter-spacing:1.5px; text-transform:uppercase; color:var(--red); border:1px solid rgba(192,25,15,.3); padding:4px 11px; margin:0 6px 6px 0; transition:background .2s; }
+    .m-src-link:hover { background:rgba(192,25,15,.07); }
+
+    /* EMPTY STATE */
+    .empty { text-align:center; padding:80px 28px; }
+    .empty-icon { font-size:48px; margin-bottom:16px; opacity:.4; }
+    .empty-txt { font-family:var(--fd); font-size:11px; letter-spacing:3px; text-transform:uppercase; color:var(--smoke); }
+
+    /* FOOTER */
+    footer { background:#0f0a05; padding:28px 32px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px; }
+    .ft-logo { font-family:var(--fd); font-size:15px; font-weight:900; color:rgba(255,255,255,.45); letter-spacing:3px; text-transform:uppercase; }
+    .ft-logo span { color:var(--gold); }
+    .ft-txt { font-family:var(--fd); font-size:8px; letter-spacing:2px; text-transform:uppercase; color:rgba(255,255,255,.2); }
+
+    /* RESPONSIVE */
+    @media (max-width:960px) {
+      .gare-grid { grid-template-columns:repeat(2,1fr); }
+      .m-gal-grid { grid-template-columns:repeat(3,1fr); }
+    }
+    @media (max-width:620px) {
+      .nav-links, #nav-cta { display:none; }
+      .nav-toggle { display:flex; }
+      .gare-grid { grid-template-columns:1fr; }
+      .m-gal-grid { grid-template-columns:repeat(2,1fr); }
+      .m-hero { aspect-ratio:16/9; }
+      footer { flex-direction:column; text-align:center; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="index.html" class="nav-logo">Il <span>Dojo</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html#discipline">Discipline</a></li>
+    <li><a href="mizuryu.html">Mizu Ryu</a></li>
+    <li><a href="index.html#orari">Orari</a></li>
+    <li><a href="index.html#galleria">Galleria</a></li>
+    <li><a href="gare.html" class="active">Gare</a></li>
+    <li><a href="index.html#maestri">Maestri</a></li>
+    <li><a href="index.html#contatti">Contatti</a></li>
+  </ul>
+  <button id="nav-cta" class="btn btn-red" onclick="location.href='index.html#contatti'">Prima lezione gratis</button>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Apri menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<nav id="mob-menu">
+  <a href="index.html#discipline" onclick="closeMob()">Discipline</a>
+  <a href="index.html#orari"      onclick="closeMob()">Orari</a>
+  <a href="index.html#galleria"   onclick="closeMob()">Galleria</a>
+  <a href="gare.html"             onclick="closeMob()">Gare</a>
+  <a href="index.html#maestri"    onclick="closeMob()">Maestri</a>
+  <a href="index.html#contatti"   onclick="closeMob()">Contatti</a>
+</nav>
+
+<!-- PAGE HEADER -->
+<header class="page-hero">
+  <div class="ph-kamon" aria-hidden="true">武</div>
+  <p class="ph-eyebrow">A.S.D. Il Dojo Catania</p>
+  <h1 class="ph-title">Gare ed <span>Eventi</span></h1>
+  <p class="ph-sub">Mondiali · Europei · World Games · Coppa Italia · Open Internazionali</p>
+</header>
+
+<!-- FILTERS -->
+<div class="filters-bar" id="filters-bar" role="group" aria-label="Filtra per categoria">
+  <span class="filters-label">Filtra ›</span>
+  <button class="f-btn active" data-filter="all">Tutti</button>
+  <button class="f-btn" data-filter="mondiali">Mondiali</button>
+  <button class="f-btn" data-filter="europei">Europei</button>
+  <button class="f-btn" data-filter="worldgames">World Games</button>
+  <button class="f-btn" data-filter="grandprix">Grand Prix</button>
+  <button class="f-btn" data-filter="coppaitalia">Coppa Italia</button>
+  <button class="f-btn" data-filter="nazionale">Campionato IT</button>
+  <span class="f-count" id="f-count"></span>
+</div>
+
+<!-- GARE GRID -->
+<main class="gare-section">
+  <div class="gare-grid" id="gare-grid">
+    <!-- Scheletro loading -->
+    <div id="loading" style="grid-column:1/-1; text-align:center; padding:60px 0;">
+      <div style="font-family:var(--fd); font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--smoke);">Caricamento in corso…</div>
+    </div>
+  </div>
+  <div class="load-more-wrap">
+    <button class="btn btn-out" id="load-more-btn" style="display:none" onclick="loadMore()">Carica altre gare ↓</button>
+    <p class="no-more" id="no-more-msg">Hai visto tutte le gare</p>
+  </div>
+</main>
+
+<!-- MODAL -->
+<div class="modal-bg" id="modal-bg" role="dialog" aria-modal="true" aria-labelledby="m-title">
+  <div class="modal" id="modal-box">
+    <button class="modal-close" onclick="closeModal()">✕ Chiudi</button>
+
+    <div class="m-hero">
+      <img id="m-img" src="" alt="">
+      <div class="m-hero-over">
+        <span id="m-flag-big" class="m-flag-big"></span>
+        <span id="m-hero-cat" class="m-hero-cat"></span>
+      </div>
+    </div>
+
+    <div class="m-body">
+      <h2 class="m-title" id="m-title"></h2>
+      <p  class="m-date"  id="m-date"></p>
+      <div class="m-rule"></div>
+      <div class="m-text" id="m-text"></div>
+      <div class="m-results" id="m-results"></div>
+      <div class="m-gallery" id="m-gallery" style="display:none">
+        <div class="m-gal-title">Fotogalleria</div>
+        <div class="m-gal-grid" id="m-gal-grid"></div>
+      </div>
+      <div class="m-sources" id="m-sources"></div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <a href="index.html" class="ft-logo">A.S.D. Il <span>Dojo</span></a>
+  <div class="ft-txt">© 2016–2026 A.S.D. Il Dojo · Viale Vittorio Veneto 20, Catania · <a href="mailto:asd.ildojo@gmail.com" style="color:inherit">asd.ildojo@gmail.com</a><br>P.IVA 06117160876 · C.F. 93211800870</div>
+  <div style="font-family:var(--fd); font-size:8px; letter-spacing:1.5px; text-transform:uppercase; color:var(--gold-lt); border:1px solid rgba(184,147,42,.3); padding:6px 14px; text-align:center;">
+    Sostienici con il<br><strong style="font-size:11px;">5 × 1000</strong><br>C.F. 93211800870
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script src="gare.js"></script>
+<script>
+  const PER_PAGE = 9;
+  let allGare    = [];
+  let filtered   = [];
+  let shown      = 0;
+  let lightbox   = null;
+
+  /* ── Render card ─────────────────────────── */
+  function makeCard(g, idx) {
+    const medals = (g.risultati || []).slice(0,3).map(r => {
+      const cls = r.medaglia.includes('🥇') ? 'oro'
+                : r.medaglia.includes('🥈') ? 'argento' : 'bronzo';
+      return `<span class="g-pill ${cls}">${r.medaglia} ${r.specialita||r.categoria_ris||''}</span>`;
+    }).join('');
+    const cover = coverSrc(g._slug);
+    const ev = g.evidenza ? `<span class="g-evidenza">In evidenza</span>` : '';
+    return `
+    <article class="g-card" onclick="openModal(${idx})" role="button" tabindex="0"
+             onkeydown="if(event.key==='Enter')openModal(${idx})">
+      <div class="g-img">
+        <img src="${cover}" alt="${g.immagine_alt||g.titolo}" loading="lazy"
+             onerror="this.src='assets/img_dojo/Gallery/HOME.jpeg'">
+        <span class="g-flag">${g.bandiera||'🇮🇹'}</span>
+        <span class="g-cat">${CAT_LABEL[g.categoria]||g.categoria}</span>
+        ${ev}
+      </div>
+      <div class="g-body">
+        <div class="g-date">${fmtData(g.data)} · ${g.luogo||''}</div>
+        <h2 class="g-title">${g.titolo}</h2>
+        <p class="g-intro">${g.intro||''}</p>
+        <div class="g-medals">${medals}</div>
+        <span class="g-more">Leggi il resoconto →</span>
+      </div>
+    </article>`;
+  }
+
+  /* ── Load more ───────────────────────────── */
+  function renderBatch() {
+    const grid = document.getElementById('gare-grid');
+    const end  = Math.min(shown + PER_PAGE, filtered.length);
+    for (let i = shown; i < end; i++) {
+      grid.insertAdjacentHTML('beforeend', makeCard(filtered[i], allGare.indexOf(filtered[i])));
+    }
+    shown = end;
+    document.getElementById('load-more-btn').style.display =
+      shown < filtered.length ? 'inline-block' : 'none';
+    const noMore = document.getElementById('no-more-msg');
+    noMore.style.display = (shown >= filtered.length && filtered.length > PER_PAGE) ? 'block' : 'none';
+    document.getElementById('f-count').textContent = `${filtered.length} gare`;
+  }
+
+  function loadMore() { renderBatch(); }
+
+  /* ── Filter ──────────────────────────────── */
+  function applyFilter(cat) {
+    filtered = cat === 'all' ? [...allGare] : allGare.filter(g => g.categoria === cat);
+    document.getElementById('gare-grid').innerHTML = '';
+    shown = 0;
+    if (filtered.length === 0) {
+      document.getElementById('gare-grid').innerHTML = `
+        <div style="grid-column:1/-1;" class="empty">
+          <div class="empty-icon">🏆</div>
+          <div class="empty-txt">Nessuna gara in questa categoria</div>
+        </div>`;
+      document.getElementById('load-more-btn').style.display = 'none';
+      document.getElementById('f-count').textContent = '0 gare';
+    } else {
+      renderBatch();
+    }
+  }
+
+  document.querySelectorAll('.f-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.f-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      applyFilter(btn.dataset.filter);
+    });
+  });
+
+  /* ── Modal ───────────────────────────────── */
+  async function openModal(idx) {
+    const g = allGare[idx];
+    if (!g) return;
+
+    // Update URL senza reload (per condivisione link)
+    history.pushState({ gara: g._slug }, '', `?gara=${g._slug}`);
+
+    // Hero
+    const cover = coverSrc(g._slug);
+    document.getElementById('m-img').src       = cover;
+    document.getElementById('m-img').alt       = g.immagine_alt || g.titolo;
+    document.getElementById('m-flag-big').textContent  = g.bandiera || '🇮🇹';
+    document.getElementById('m-hero-cat').textContent  = CAT_LABEL[g.categoria] || g.categoria;
+
+    // Testo
+    document.getElementById('m-title').textContent = g.titolo;
+    document.getElementById('m-date').textContent  = fmtData(g.data) + ' · ' + (g.luogo||'');
+    document.getElementById('m-text').innerHTML    = mdToHtml(g.corpo);
+
+    // Risultati
+    const res = g.risultati || [];
+    let rHTML = '<div class="m-res-title">Risultati</div>';
+    res.forEach(r => {
+      rHTML += `<div class="m-res-row">
+        <span class="m-res-med">${r.medaglia}</span>
+        <div>
+          <div class="m-res-cat">${r.specialita||r.categoria_ris||''}</div>
+          <div class="m-res-ath">${r.atleti||''}</div>
+        </div>
+      </div>`;
+    });
+    document.getElementById('m-results').innerHTML = res.length ? rHTML : '';
+
+    // Fotogalleria — prova a caricare foto-01..20 dalla cartella della gara
+    const galSection = document.getElementById('m-gallery');
+    const galGrid    = document.getElementById('m-gal-grid');
+    galGrid.innerHTML = '';
+    // Reset lightbox
+    if (lightbox) { lightbox.destroy(); lightbox = null; }
+
+    const photoTests = Array.from({length:20}, (_,i) =>
+      `${IMG_BASE_PATH}${g._slug}/foto-${String(i+1).padStart(2,'0')}.jpg`
+    );
+
+    // Prova a caricare (test existence via Image)
+    const existing = await Promise.all(photoTests.map(src =>
+      new Promise(res => {
+        const img = new Image();
+        img.onload  = () => res(src);
+        img.onerror = () => res(null);
+        img.src = src;
+      })
+    ));
+    const photos = existing.filter(Boolean);
+
+    if (photos.length > 0) {
+      galSection.style.display = 'block';
+      photos.forEach((src, i) => {
+        galGrid.insertAdjacentHTML('beforeend', `
+          <a class="m-gal-item glightbox-modal" href="${src}"
+             data-title="${g.titolo} — foto ${i+1}">
+            <img src="${src}" alt="${g.titolo} foto ${i+1}" loading="lazy">
+          </a>`);
+      });
+      lightbox = GLightbox({ selector:'.glightbox-modal', touchNavigation:true, loop:true });
+    } else {
+      galSection.style.display = 'none';
+    }
+
+    // Fonti
+    const fonti = g.fonti || [];
+    let sHTML = '';
+    if (fonti.length) {
+      sHTML = '<div class="m-src-title">Rassegna stampa</div>';
+      fonti.forEach(f => {
+        sHTML += `<a class="m-src-link" href="${f.url}" target="_blank" rel="noopener noreferrer">${f.testata} ↗</a>`;
+      });
+    }
+    document.getElementById('m-sources').innerHTML = sHTML;
+
+    document.getElementById('modal-bg').classList.add('open');
+    document.body.style.overflow = 'hidden';
+    document.getElementById('modal-bg').scrollTop = 0;
+  }
+
+  function closeModal() {
+    document.getElementById('modal-bg').classList.remove('open');
+    document.body.style.overflow = '';
+    history.pushState({}, '', 'gare.html');
+    if (lightbox) { lightbox.destroy(); lightbox = null; }
+  }
+
+  document.getElementById('modal-bg').addEventListener('click', e => {
+    if (e.target === document.getElementById('modal-bg')) closeModal();
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+  window.addEventListener('popstate', () => {
+    document.getElementById('modal-bg').classList.remove('open');
+    document.body.style.overflow = '';
+  });
+
+  /* ── Init ────────────────────────────────── */
+  async function init() {
+    allGare = await loadAllGare();
+    document.getElementById('loading').remove();
+    filtered = [...allGare];
+    renderBatch();
+
+    // Apri direttamente una gara se ?gara=slug nell'URL
+    const params = new URLSearchParams(location.search);
+    const slug   = params.get('gara');
+    if (slug) {
+      const idx = allGare.findIndex(g => g._slug === slug);
+      if (idx >= 0) openModal(idx);
+    }
+  }
+
+  init();
+
+  /* ── Mobile nav ──────────────────────────── */
+  const tog = document.getElementById('nav-toggle');
+  const mob = document.getElementById('mob-menu');
+  tog.addEventListener('click', () => {
+    const open = mob.classList.toggle('open');
+    tog.setAttribute('aria-expanded', open);
+  });
+  function closeMob() { mob.classList.remove('open'); tog.setAttribute('aria-expanded','false'); }
+</script>
+</body>
+</html>

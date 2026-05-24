@@ -1,0 +1,26 @@
+{
+  "titolo": "World Games 2025 — Chengdu",
+  "data": "2025-08-12",
+  "luogo": "Chengdu, Cina",
+  "bandiera": "🇨🇳",
+  "categoria": "worldgames",
+  "immagine_alt": "World Games 2025 Chengdu Cina Giada Costa Sebastiano Amore Il Dojo Catania 4° posto Show Open",
+  "intro": "Costa e Amore, 19 anni, tra i 7 migliori al mondo nel Show Open. 4° posto alle spalle di Montenegro, Austria e Giappone. Sei testate siciliane e nazionali ne parlano.",
+  "corpo": "Si conclude l'avventura di Giada Costa e Sebastiano Amore ai World Games 2025 di Chengdu, Cina, nella specialità Show Open. I due giovanissimi atleti catanesi — appena 19 anni — guidati dal M° Cosimo Costa, conquistano un quarto posto di altissimo livello internazionale.\n\nUn piazzamento che lascia qualche rimpianto — al World Games non esiste il terzo posto ex aequo come ai Mondiali — ma che vale come una medaglia: Costa e Amore si sono piazzati tra le sette nazioni più forti al mondo nella loro specialità.\n\nLa qualificazione era stata ottenuta ai Mondiali 2024 di Creta. Da allora i due atleti hanno lavorato senza sosta, sacrificando l'estate per allenarsi dopo la convocazione in Nazionale. Una volta a Chengdu, il rispetto ricevuto da atleti e coach di tutto il mondo per la qualità della loro esibizione ha confermato di aver lasciato il segno sul tatami.\n\nL'evento, trasmesso in tutto il mondo, ha visto la partecipazione delle sette nazioni qualificate al termine del circuito mondiale. Per la prima volta nella storia dell'associazione, due atleti del Dojo calcano il tatami dei World Games rappresentando l'Italia.",
+  "risultati": [
+    { "medaglia": "🥇",   "specialita": "Show Open — 1° posto", "atleti": "Giappone" },
+    { "medaglia": "🥈",   "specialita": "Show Open — 2° posto", "atleti": "Austria" },
+    { "medaglia": "🥉",   "specialita": "Show Open — 3° posto", "atleti": "Montenegro" },
+    { "medaglia": "4°",   "specialita": "Show Open — Team Italia", "atleti": "Costa G. & Amore S. — A.S.D. Il Dojo Catania" }
+  ],
+  "fonti": [
+    { "testata": "La Sicilia",  "url": "https://www.lasicilia.it/sport/ju-jitsu-i-catanesi-giada-costa-e-sebastiano-amore-quarti-ai-world-games-in-cina-2585152/" },
+    { "testata": "LiveSicilia", "url": "https://livesicilia.it/world-games-cina-costa-e-amore-un-quarto-posto/" },
+    { "testata": "QdS",         "url": "https://qds.it/ju-jitsu-giada-costa-sebastiano-amore-quarti-world-games-cina/" },
+    { "testata": "SudSport",    "url": "https://sudsport.it/blog-detail/post/288899/ju-jitsu-per-costa-e-amore-un-quarto-posto-che-vale-come-una-medaglia" },
+    { "testata": "VDJ",         "url": "https://www.vdj.it/ju-jitsu-show-open-costa-e-amore-un-quarto-posto-che-vale-molto-di-piu/" },
+    { "testata": "MC.TV",       "url": "https://www.mc.tv.it/2025/08/13/world-games-chengdu-amore-e-costa-4imolto-di-piu/" },
+    { "testata": "MC.TV — convocazione", "url": "https://www.mc.tv.it/2025/08/03/ju-jitsu-world-games-25-2-atleti-catanesi-a-rappresentare-litalia/" }
+  ],
+  "evidenza": true
+}

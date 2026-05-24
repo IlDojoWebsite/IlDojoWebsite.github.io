@@ -1,0 +1,22 @@
+{
+  "titolo": "European Championship 2025 — Beveren",
+  "data": "2025-10-05",
+  "luogo": "Beveren, Belgio",
+  "bandiera": "🇧🇪",
+  "categoria": "europei",
+  "immagine_alt": "Campionati Europei Ju-Jitsu 2025 Beveren Belgio Il Dojo Catania 5 ori 9 podi",
+  "intro": "5 titoli europei e 9 podi complessivi. Il Dojo si conferma riferimento del Ju-Jitsu continentale a un anno dal trionfo di Heraklion 2024.",
+  "corpo": "A Beveren, in Belgio, il Dojo conquista 5 titoli europei e 9 podi complessivi. Un risultato che conferma la solidità del progetto tecnico a un anno dalla storica vittoria di Heraklion 2024.\n\nCosta e La Rosa conquistano il titolo nel Duo Women U21. Molino e Ensabella dominano il Duo Open Adults e lo Show Men. Cardillo e Zito vincono il Duo Men U21 e il Duo Mix U21.\n\nDiversi atleti si mettono in luce anche nelle categorie U18 e U14, confermando la profondità e la qualità del vivaio del Dojo.",
+  "risultati": [
+    { "medaglia": "🥇", "specialita": "Duo Women U21",      "atleti": "Costa G. & La Rosa A." },
+    { "medaglia": "🥇", "specialita": "Duo Men U21",        "atleti": "Cardillo G. & Zito A." },
+    { "medaglia": "🥇", "specialita": "Duo Mix U21",        "atleti": "Amore S. & Costa G." },
+    { "medaglia": "🥇", "specialita": "Duo Open Adults",    "atleti": "Molino S. & Ensabella S." },
+    { "medaglia": "🥇", "specialita": "Show Men",           "atleti": "Molino S. & Ensabella S." }
+  ],
+  "fonti": [
+    { "testata": "Catania Today",     "url": "https://www.cataniatoday.it/sport/altro/ju-jitsu-atleti-azzurri-dojo-trionfano-europei-5-ori-9-podi-complessivi.html" },
+    { "testata": "Sport Web Sicilia", "url": "https://sportwebsicilia.it/2025/10/21/il-dojo-catania-trionfa-alla-coppa-italia-ju-jitsu-2025/" }
+  ],
+  "evidenza": false
+}

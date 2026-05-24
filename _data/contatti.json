@@ -1,0 +1,11 @@
+{
+  "indirizzo": "Viale Vittorio Veneto 20, Catania CT 95127",
+  "email": "asd.ildojo@gmail.com",
+  "tel_segreteria": "+39 329 55 94 970",
+  "tel_costa": "+39 328 48 16 083",
+  "prossimi_impegni": [
+    { "nome": "Mediterranean Open", "luogo": "Roma, Italia" },
+    { "nome": "Balkan Open", "luogo": "Banja Luka, Bosnia" },
+    { "nome": "World Championship", "luogo": "Roma, Italia" }
+  ]
+}

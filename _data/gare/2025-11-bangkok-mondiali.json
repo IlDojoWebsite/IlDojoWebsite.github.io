@@ -1,0 +1,26 @@
+{
+  "titolo": "World Championship Bangkok 2025",
+  "data": "2025-11-03",
+  "luogo": "Bangkok, Thailandia",
+  "bandiera": "🇹🇭",
+  "categoria": "mondiali",
+  "immagine_alt": "World Championship Ju-Jitsu Bangkok 2025 Il Dojo Catania campioni del mondo",
+  "intro": "Trionfo azzurro di scuola catanese. Costa & La Rosa e Molino & Ensabella campioni del Mondo. TGR Rai Sicilia: il Ju-Jitsu catanese domina i Mondiali.",
+  "corpo": "A Bangkok il Ju-Jitsu di scuola catanese domina il World Championship 2025 con oltre 20 medaglie tra Adults, U21 e U18.\n\nGiada Costa e Alice La Rosa conquistano l'oro nel Duo Women Adults. Salvatore Molino e Salvatore Ensabella si laureano campioni del mondo nel Duo Men Adults. Costa e La Rosa aggiungono l'oro nello Show Women U21, La Rosa ed Ensabella vincono lo Show Mix U21.\n\nAmore Sebastiano e Adornetto Salvatore conquistano l'oro nello Show Men U21. La Rosa e Ensabella chiudono con l'oro nel Duo Mix U21.\n\n*\"Il Ju-Jitsu di scuola catanese trionfa ai Mondiali di Bangkok\"* — **TGR Rai Sicilia**\n\nDue catanesi campionesse del mondo: Costa e La Rosa, che pochi mesi dopo sarebbero state protagoniste anche ai World Games di Chengdu, consolidano la loro posizione ai vertici mondiali della specialità.",
+  "risultati": [
+    { "medaglia": "🥇", "specialita": "Duo Women Adults", "atleti": "Costa G. & La Rosa A." },
+    { "medaglia": "🥇", "specialita": "Duo Men Adults",   "atleti": "Molino S. & Ensabella S." },
+    { "medaglia": "🥇", "specialita": "Show Women U21",   "atleti": "Costa G. & La Rosa A." },
+    { "medaglia": "🥇", "specialita": "Show Mix U21",     "atleti": "Ensabella S. & La Rosa A." },
+    { "medaglia": "🥇", "specialita": "Show Men U21",     "atleti": "Amore S. & Adornetto S." },
+    { "medaglia": "🥇", "specialita": "Duo Mix U21",      "atleti": "La Rosa A. & Ensabella S." }
+  ],
+  "fonti": [
+    { "testata": "TGR Rai Sicilia",  "url": "https://www.rainews.it/tgr/sicilia/video/2025/11/ju-jitsu-bangkok-05bafda4-d781-424d-9707-d230356dcb6b.html" },
+    { "testata": "Catania Today",    "url": "https://www.cataniatoday.it/sport/altro/catanesi-giada-costa-alice-la-rosa-campionesse-del-mondo-bangkok-oro-duo-women-adults.html" },
+    { "testata": "FIJLKAM",          "url": "https://www.fijlkam.it/arti-marziali/ju-jitsu/news-ju-jitsu/11046-mondiali-di-ju-jitsu-oro-per-costa-e-la-rosa,-bronzo-per-costa-e-amore-a-bangkok.html" },
+    { "testata": "La Sicilia",       "url": "https://www.lasicilia.it/video/la-sicilia-tv/3004381/quando-le-arti-marziali-diventano-una-danza-e-due-catanesi-diventano-campionesse-del-mondo.html" },
+    { "testata": "Newsicilia",       "url": "https://newsicilia.it/italia/sport/trionfo-azzurro-a-bangkok-litalia-domina-ai-mondiali-di-jujitsu-2025/1045915/" }
+  ],
+  "evidenza": true
+}

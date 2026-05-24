@@ -1,0 +1,21 @@
+{
+  "titolo": "Grand Prix de Paris 2025",
+  "data": "2025-04-26",
+  "luogo": "Parigi, Francia",
+  "bandiera": "🇫🇷",
+  "categoria": "grandprix",
+  "immagine_alt": "Grand Prix de Paris Ju-Jitsu 2025 Il Dojo Catania oro Show Open",
+  "intro": "Dominio nello Show Open: Molino-Ensabella e Costa-La Rosa vincono davanti alle migliori coppie d'Europa. 3 ori, 2 argenti, 2 bronzi.",
+  "corpo": "Nei giorni 26 e 27 aprile si svolge la più prestigiosa competizione Open riservata alla categoria Adults. Il Dojo di Catania domina nello Show portando a casa ori in tutte le specialità principali.\n\nMolino e Ensabella si confermano la coppia più forte nel Show Men Adults. Costa e La Rosa dominano il Show Women Adults con una performance di altissimo livello tecnico. La coppia Costa-Amore conquista lo Show Mix e lo Show Open, oltre a un argento nel Duo Women e un bronzo nel Duo Men.\n\nUn segnale importante in vista dei Mondiali di Bangkok: il Dojo è ai vertici assoluti della disciplina a livello internazionale.",
+  "risultati": [
+    { "medaglia": "🥇", "specialita": "Show Men Adults",   "atleti": "Molino S. & Ensabella S." },
+    { "medaglia": "🥇", "specialita": "Show Women Adults", "atleti": "Costa G. & La Rosa A." },
+    { "medaglia": "🥇", "specialita": "Show Mix Adults",   "atleti": "Costa G. & Amore S." },
+    { "medaglia": "🥇", "specialita": "Show Open Adults",  "atleti": "Costa G. & Amore S." },
+    { "medaglia": "🥈", "specialita": "Duo Women Adults",  "atleti": "Costa G. & La Rosa A." },
+    { "medaglia": "🥈", "specialita": "Duo Mix Adults",    "atleti": "Costa G. & Amore S." },
+    { "medaglia": "🥉", "specialita": "Duo Men Adults",    "atleti": "Molino S. & Ensabella S." }
+  ],
+  "fonti": [],
+  "evidenza": false
+}

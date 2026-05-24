@@ -1,0 +1,28 @@
+{
+  "titolo": "European Championship 2026 — Heraklion",
+  "data": "2026-03-18",
+  "luogo": "Heraklion, Grecia",
+  "bandiera": "🇬🇷",
+  "categoria": "europei",
+  "immagine_alt": "Campionati Europei Ju-Jitsu 2026 Heraklion Il Dojo Catania 27 medaglie",
+  "intro": "27 medaglie: 10 ori, 5 argenti, 12 bronzi. Il Dojo firma oltre un quarto dell'intero medagliere azzurro su 101 medaglie totali del Team Italia.",
+  "corpo": "L'ASD Il Dojo chiude gli European Championship 2026 di Heraklion con un bilancio straordinario: 27 medaglie complessive — 10 ori, 5 argenti e 12 bronzi — su un totale di 101 medaglie del Team Italia. Il club etneo ha contribuito a oltre un quarto dell'intero medagliere azzurro.\n\nProtagonisti assoluti Salvatore Molino e Salvatore Ensabella, autori di una doppietta d'oro nel Duo Men Adults e nello Show Men Adults. Titolo europeo anche per Giada Costa e Alice La Rosa nello Show Women Adults, e per La Rosa insieme a Ensabella nello Show Mix Adults.\n\nNella categoria U21 Angelo Zito e Giovanni Cardillo conquistano il doppio oro nel Duo Men e Show Men. Costa e Amore conquistano due argenti nello Show Mix e nello Show Open Adults, confermandosi tra le migliori coppie del continente.\n\nEccellenti risultati anche nella European Cup U14: Luca Cannavò e Alessio Fazio dominano con due ori nel Duo Men e Show Men, mentre Sofia Spinella si aggiudica l'oro nello Show Mix.\n\n*\"Dalle categorie giovanili fino agli Adults ci confermiamo un punto di riferimento nel Duo System e nello Show. Il contributo al Team Italia dimostra come programmazione, competenza e continuità si traducano in risultati concreti a livello internazionale.\"* — **M° Cosimo Costa, Tecnico Azzurro FIJLKAM**",
+  "risultati": [
+    { "medaglia": "🥇", "specialita": "Duo Men Adults",         "atleti": "Molino S. & Ensabella S." },
+    { "medaglia": "🥇", "specialita": "Show Men Adults",        "atleti": "Molino S. & Ensabella S." },
+    { "medaglia": "🥇", "specialita": "Show Women Adults",      "atleti": "Costa G. & La Rosa A." },
+    { "medaglia": "🥇", "specialita": "Show Mix Adults",        "atleti": "La Rosa A. & Ensabella S." },
+    { "medaglia": "🥇", "specialita": "Duo Men U21",            "atleti": "Zito A. & Cardillo G." },
+    { "medaglia": "🥇", "specialita": "Show Men U21",           "atleti": "Zito A. & Cardillo G." },
+    { "medaglia": "🥈", "specialita": "Show Mix Adults",        "atleti": "Costa G. & Amore S." },
+    { "medaglia": "🥈", "specialita": "Show Open Adults",       "atleti": "Costa G. & Amore S." },
+    { "medaglia": "🥇", "specialita": "European Cup U14 — Duo Men",  "atleti": "Cannavò L. & Fazio A." },
+    { "medaglia": "🥇", "specialita": "European Cup U14 — Show Men", "atleti": "Cannavò L. & Fazio A." },
+    { "medaglia": "🥇", "specialita": "European Cup U14 — Show Mix", "atleti": "Spinella S." }
+  ],
+  "fonti": [
+    { "testata": "Sport Web Sicilia", "url": "https://sportwebsicilia.it/2026/03/23/il-dojo-catania-medaglie-europei-jujitsu-2026/" },
+    { "testata": "L'Urlo",            "url": "https://lurlo.news/europei-jujitsu-2026-il-dojo-catania-medaglie/" }
+  ],
+  "evidenza": true
+}

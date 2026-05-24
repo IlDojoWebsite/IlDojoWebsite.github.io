@@ -1,0 +1,10 @@
+{
+  "turni": [
+    { "fascia_eta": "3 – 5 anni",   "nome": "Micro Baby Draghi & Baby Draghi", "orario": "16:10 – 17:00", "giorni": "Lun · Ven" },
+    { "fascia_eta": "6 – 7 anni",   "nome": "Kids & Children Tigri",           "orario": "16:30 – 17:20", "giorni": "Lun · Ven" },
+    { "fascia_eta": "7 – 9 anni",   "nome": "Kids Tigri",                      "orario": "17:20 – 18:30", "giorni": "Lun · Mer · Ven" },
+    { "fascia_eta": "10 – 13 anni", "nome": "Children & Young Leoni",          "orario": "18:30 – 19:35", "giorni": "Lun · Mer · Ven" },
+    { "fascia_eta": "Over 13",      "nome": "Adulti & Agonisti",               "orario": "19:40 – 21:40", "giorni": "Lun · Mer · Ven" },
+    { "fascia_eta": "Adulti",       "nome": "Aikido — Gruppo unico",           "orario": "20:00 – 22:00", "giorni": "Mar · Gio" }
+  ]
+}

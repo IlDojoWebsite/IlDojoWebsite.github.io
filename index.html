@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Il Dojo Catania — Ju-Jitsu, Aikido e Difesa Personale</title>
+  <meta name="description" content="A.S.D. Il Dojo a Catania: Ju-Jitsu Mizu Ryu, Aikido e Difesa Personale. Campioni del Mondo e d'Europa FIJLKAM. Corsi per bambini e adulti. Viale Vittorio Veneto 20. Tel: 329 55 94 970">
+  <meta name="keywords" content="ju-jitsu Catania, arti marziali Catania, aikido Catania, difesa personale Catania, Mizu Ryu, ASD Il Dojo, corsi bambini Catania, FIJLKAM Catania">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.ildojoartimarziali.it/">
+
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://www.ildojoartimarziali.it/">
+  <meta property="og:title"       content="Il Dojo Catania — Campioni del Mondo di Ju-Jitsu">
+  <meta property="og:description" content="Ju-Jitsu Mizu Ryu, Aikido e Difesa Personale a Catania. Campioni del Mondo e d'Europa FIJLKAM.">
+  <meta property="og:image"       content="https://www.ildojoartimarziali.it/assets/img_dojo/mizu_ryu.jpg">
+  <meta property="og:locale"      content="it_IT">
+
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Il Dojo Catania — Campioni del Mondo di Ju-Jitsu">
+  <meta name="twitter:description" content="Ju-Jitsu, Aikido e Difesa Personale a Catania. Campioni del Mondo FIJLKAM.">
+  <meta name="twitter:image"       content="https://www.ildojoartimarziali.it/assets/img_dojo/mizu_ryu.jpg">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsClub",
+    "name": "A.S.D. Il Dojo",
+    "alternateName": "Il Dojo Arti Marziali Catania",
+    "url": "https://www.ildojoartimarziali.it",
+    "logo": "https://www.ildojoartimarziali.it/assets/img_dojo/logo2.png",
+    "description": "Leader nelle arti marziali a livello nazionale, continentale e mondiale. Ju-Jitsu Mizu Ryu, Aikido e Difesa Personale a Catania.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Viale Vittorio Veneto 20",
+      "addressLocality": "Catania",
+      "addressRegion": "CT",
+      "postalCode": "95127",
+      "addressCountry": "IT"
+    },
+    "telephone": "+393295594970",
+    "email": "asd.ildojo@gmail.com",
+    "foundingDate": "2016-09-05",
+    "sport": ["Ju-Jitsu", "Aikido", "Difesa Personale"],
+    "openingHoursSpecification": [
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Wednesday","Friday"],"opens":"16:10","closes":"21:30"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Thursday"],"opens":"20:00","closes":"22:00"}
+    ],
+    "sameAs": ["https://www.instagram.com/il_dojo"]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+
+  <style>
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+    :root {
+      --ink:      #1a1108;
+      --red:      #C0190F;
+      --red-dk:   #8B1108;
+      --gold:     #B8932A;
+      --gold-lt:  #D4AD4A;
+      --cream:    #F8F3EC;
+      --ash:      #E8E0D4;
+      --smoke:    #6B6258;
+      --white:    #ffffff;
+      --fd: 'Cinzel', serif;
+      --fb: 'Crimson Text', serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family:var(--fb); color:var(--ink); background:var(--cream); font-size:16px; line-height:1.65; }
+    img  { max-width:100%; display:block; }
+    a    { color:inherit; text-decoration:none; }
+
+    /* UTILS */
+    .container { max-width:1100px; margin:0 auto; padding:0 28px; }
+    .sec-header { text-align:center; padding:68px 28px 36px; }
+    .eyebrow { font-family:var(--fd); font-size:10px; letter-spacing:5px; text-transform:uppercase; color:var(--red); margin-bottom:10px; }
+    .sec-title { font-family:var(--fd); font-size:30px; font-weight:700; letter-spacing:3px; text-transform:uppercase; margin-bottom:14px; }
+    .rule { width:48px; height:2px; background:var(--gold); margin:0 auto; }
+    .btn { display:inline-block; font-family:var(--fd); font-size:10px; letter-spacing:2.5px; text-transform:uppercase; padding:14px 32px; cursor:pointer; border:none; transition:opacity .2s; }
+    .btn:hover { opacity:.82; }
+    .btn-red  { background:var(--red); color:#fff; }
+    .btn-out  { background:transparent; color:var(--gold-lt); border:1px solid var(--gold); }
+
+    /* NAV */
+    #nav { position:sticky; top:0; z-index:900; display:flex; align-items:center; justify-content:space-between; height:60px; padding:0 32px; background:var(--ink); border-bottom:2px solid var(--red); }
+    .nav-logo { font-family:var(--fd); font-size:18px; font-weight:900; color:#fff; letter-spacing:3px; text-transform:uppercase; }
+    .nav-logo span { color:var(--gold); }
+    .nav-links { display:flex; gap:26px; list-style:none; }
+    .nav-links a { font-family:var(--fd); font-size:10px; letter-spacing:2px; text-transform:uppercase; color:rgba(255,255,255,.65); transition:color .2s; }
+    .nav-links a:hover, .nav-links a.active { color:var(--gold); }
+    #nav-cta { font-family:var(--fd); font-size:10px; letter-spacing:2px; text-transform:uppercase; background:var(--red); color:#fff; border:none; padding:10px 20px; cursor:pointer; }
+    .nav-toggle { display:none; background:none; border:none; cursor:pointer; flex-direction:column; gap:5px; }
+    .nav-toggle span { display:block; width:22px; height:2px; background:#fff; }
+    #mob-menu { display:none; position:fixed; inset:60px 0 0; background:var(--ink); z-index:899; padding:32px; flex-direction:column; gap:20px; }
+    #mob-menu.open { display:flex; }
+    #mob-menu a { font-family:var(--fd); font-size:14px; letter-spacing:3px; text-transform:uppercase; color:rgba(255,255,255,.7); border-bottom:1px solid rgba(255,255,255,.07); padding-bottom:16px; }
+
+    /* HERO */
+    #hero { position:relative; background:var(--ink); padding:96px 28px 108px; text-align:center; overflow:hidden; }
+    #hero::before { content:''; position:absolute; inset:0; background:repeating-linear-gradient(45deg,transparent,transparent 40px,rgba(176,19,9,.04) 40px,rgba(176,19,9,.04) 41px); pointer-events:none; }
+    .hero-kamon { position:absolute; top:20px; right:32px; font-size:100px; font-family:serif; color:var(--gold); opacity:.06; user-select:none; pointer-events:none; }
+    .hero-eyebrow { font-family:var(--fd); font-size:10px; letter-spacing:5px; text-transform:uppercase; color:var(--red); margin-bottom:18px; }
+    .hero-title { font-family:var(--fd); font-size:clamp(40px,7vw,72px); font-weight:900; color:#fff; letter-spacing:8px; text-transform:uppercase; line-height:1; margin-bottom:10px; }
+    .hero-title span { color:var(--gold); }
+    .hero-sub { font-family:var(--fd); font-size:11px; letter-spacing:3px; text-transform:uppercase; color:var(--smoke); margin-bottom:28px; }
+    .hero-desc { font-size:18px; font-style:italic; color:#c4bdb5; max-width:540px; margin:0 auto 36px; line-height:1.7; }
+    .hero-badges { display:flex; justify-content:center; flex-wrap:wrap; gap:10px; margin-bottom:40px; }
+    .badge { font-family:var(--fd); font-size:9px; letter-spacing:2px; text-transform:uppercase; padding:5px 13px; border:1px solid rgba(184,147,42,.4); color:var(--gold-lt); }
+    .hero-btns { display:flex; justify-content:center; gap:14px; flex-wrap:wrap; }
+
+    /* STATS */
+    .stats-bar { background:var(--red-dk); display:grid; grid-template-columns:repeat(5,1fr); }
+    .stat-item { padding:20px 10px; text-align:center; border-right:1px solid rgba(255,255,255,.1); }
+    .stat-item:last-child { border-right:none; }
+    .stat-num { font-family:var(--fd); font-size:26px; font-weight:700; color:#fff; }
+    .stat-lab { font-family:var(--fd); font-size:7.5px; letter-spacing:1.5px; text-transform:uppercase; color:rgba(255,255,255,.5); margin-top:4px; }
+
+    /* BREAKING */
+    .breaking { background:var(--gold); display:flex; align-items:center; gap:14px; padding:9px 28px; overflow:hidden; }
+    .brk-tag  { font-family:var(--fd); font-size:8px; letter-spacing:3px; text-transform:uppercase; background:var(--ink); color:var(--gold); padding:4px 12px; white-space:nowrap; flex-shrink:0; }
+    .brk-text { font-family:var(--fd); font-size:9px; letter-spacing:1.5px; text-transform:uppercase; color:var(--ink); }
+
+    /* UPCOMING */
+    .upcoming { background:var(--red-dk); display:flex; align-items:center; gap:12px; padding:14px 28px; flex-wrap:wrap; }
+    .upc-label { font-family:var(--fd); font-size:8px; letter-spacing:3px; text-transform:uppercase; color:rgba(255,255,255,.55); flex-shrink:0; }
+    .upc-pill  { font-family:var(--fd); font-size:9px; letter-spacing:2px; text-transform:uppercase; color:#fff; background:rgba(0,0,0,.25); padding:5px 14px; }
+
+    /* ULTIMI EVENTI (homepage preview) */
+    #ultimi-eventi { background:var(--white); }
+    .eventi-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; padding:0 28px 68px; }
+    .ev-card { background:var(--cream); border:1px solid var(--ash); overflow:hidden; cursor:pointer; transition:transform .25s, box-shadow .25s; }
+    .ev-card:hover { transform:translateY(-4px); box-shadow:0 12px 32px rgba(26,17,8,.12); }
+    .ev-img { position:relative; aspect-ratio:16/9; overflow:hidden; background:var(--ink); }
+    .ev-img img { width:100%; height:100%; object-fit:cover; transition:transform .4s; }
+    .ev-card:hover .ev-img img { transform:scale(1.05); }
+    .ev-flag { position:absolute; top:12px; right:12px; font-size:20px; }
+    .ev-cat  { position:absolute; bottom:0; left:0; font-family:var(--fd); font-size:8px; letter-spacing:2px; text-transform:uppercase; background:var(--red); color:#fff; padding:5px 12px; }
+    .ev-body { padding:20px; }
+    .ev-date { font-family:var(--fd); font-size:8px; letter-spacing:2px; text-transform:uppercase; color:var(--smoke); margin-bottom:8px; }
+    .ev-title { font-family:var(--fd); font-size:13px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--ink); line-height:1.4; margin-bottom:10px; }
+    .ev-intro { font-size:14px; color:var(--smoke); line-height:1.55; margin-bottom:14px; }
+    .ev-medals { display:flex; gap:6px; flex-wrap:wrap; }
+    .ev-pill { font-family:var(--fd); font-size:8px; letter-spacing:1.5px; text-transform:uppercase; padding:3px 9px; }
+    .ev-pill.oro     { background:rgba(184,147,42,.12); color:var(--gold); }
+    .ev-pill.argento { background:rgba(0,0,0,.06); color:#666; }
+    .ev-pill.bronzo  { background:rgba(184,115,51,.1); color:#b87333; }
+    .ev-more { display:inline-flex; align-items:center; gap:6px; font-family:var(--fd); font-size:9px; letter-spacing:2px; text-transform:uppercase; color:var(--red); margin-top:14px; border-bottom:1px solid transparent; transition:border-color .2s; }
+    .ev-more:hover { border-color:var(--red); }
+    .ev-cta-wrap { text-align:center; padding:0 28px 68px; }
+
+    /* DISCIPLINE */
+    #discipline { background:var(--cream); }
+    .disc-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:2px; background:#ccc5bc; margin:0 0 68px; }
+    .disc-card { background:var(--cream); padding:32px 28px; position:relative; }
+    .disc-card::before { content:''; position:absolute; top:0; left:0; width:3px; height:100%; background:var(--red); }
+    .disc-num   { font-family:var(--fd); font-size:9px; letter-spacing:3px; text-transform:uppercase; color:var(--smoke); margin-bottom:10px; }
+    .disc-title { font-family:var(--fd); font-size:16px; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--ink); margin-bottom:10px; }
+    .disc-desc  { font-size:15px; color:var(--smoke); line-height:1.6; }
+    .disc-tags  { margin-top:12px; display:flex; gap:6px; flex-wrap:wrap; }
+    .disc-tag   { font-family:var(--fd); font-size:8px; letter-spacing:1.5px; text-transform:uppercase; background:rgba(192,25,15,.08); color:var(--red); padding:3px 9px; }
+
+    /* ORARI */
+    #orari { background:var(--ink); padding:72px 28px; }
+    .orari-title { font-family:var(--fd); font-size:10px; letter-spacing:4px; text-transform:uppercase; color:var(--gold); text-align:center; margin-bottom:36px; }
+    .orari-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; max-width:860px; margin:0 auto; }
+    .o-card { background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.08); padding:20px 18px; }
+    .o-age  { font-family:var(--fd); font-size:10px; letter-spacing:2px; text-transform:uppercase; color:var(--gold-lt); margin-bottom:6px; }
+    .o-lab  { font-size:15px; font-style:italic; color:#fff; margin-bottom:8px; line-height:1.4; }
+    .o-time { font-family:var(--fd); font-size:10px; letter-spacing:1px; color:var(--smoke); border-top:1px solid rgba(255,255,255,.08); padding-top:8px; }
+    .o-days { font-family:var(--fd); font-size:9px; letter-spacing:1.5px; text-transform:uppercase; color:var(--red); margin-top:5px; }
+
+    /* GALLERIA */
+    #galleria { background:var(--cream); padding:0 0 72px; }
+    .gal-filters { display:flex; justify-content:center; gap:8px; flex-wrap:wrap; margin-bottom:32px; padding:0 28px; }
+    .gal-btn { font-family:var(--fd); font-size:9px; letter-spacing:2px; text-transform:uppercase; padding:7px 18px; background:transparent; color:var(--smoke); border:1px solid var(--ash); cursor:pointer; transition:all .2s; }
+    .gal-btn:hover, .gal-btn.active { background:var(--ink); color:var(--gold-lt); border-color:var(--ink); }
+    .gal-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:4px; padding:0 28px; }
+    .gal-item { position:relative; aspect-ratio:1; overflow:hidden; background:var(--ash); }
+    .gal-item img { width:100%; height:100%; object-fit:cover; transition:transform .4s; }
+    .gal-item:hover img { transform:scale(1.06); }
+    .gal-over { position:absolute; inset:0; background:rgba(26,17,8,.55); opacity:0; transition:opacity .3s; display:flex; align-items:flex-end; padding:14px; }
+    .gal-item:hover .gal-over { opacity:1; }
+    .gal-cap  { font-family:var(--fd); font-size:9px; letter-spacing:1.5px; text-transform:uppercase; color:#fff; line-height:1.4; }
+    .gal-cap span { display:block; color:var(--gold-lt); margin-bottom:3px; }
+    .gal-item[data-hidden="true"] { display:none; }
+
+    /* MAESTRI */
+    #maestri { background:var(--white); padding:72px 28px; }
+    .maestri-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:32px; }
+    .m-card  { text-align:center; padding:28px 18px; background:var(--cream); border:1px solid var(--ash); }
+    .m-av    { width:68px; height:68px; border-radius:50%; background:var(--ink); margin:0 auto 14px; display:flex; align-items:center; justify-content:center; font-family:var(--fd); font-size:22px; font-weight:700; color:var(--gold); border:2px solid var(--red); }
+    .m-name  { font-family:var(--fd); font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:4px; }
+    .m-title { font-family:var(--fd); font-size:9px; letter-spacing:2px; text-transform:uppercase; color:var(--red); margin-bottom:12px; }
+    .m-bio   { font-size:13.5px; font-style:italic; color:var(--smoke); line-height:1.55; }
+    .m-dan   { display:inline-block; margin-top:12px; font-family:var(--fd); font-size:8px; letter-spacing:2px; text-transform:uppercase; background:var(--ink); color:var(--gold); padding:4px 12px; }
+
+    /* SPONSOR */
+    #sponsor { background:var(--ink); padding:80px 28px; text-align:center; position:relative; overflow:hidden; }
+    #sponsor::before { content:''; position:absolute; inset:0; background:repeating-linear-gradient(-45deg,transparent,transparent 40px,rgba(184,147,42,.03) 40px,rgba(184,147,42,.03) 41px); pointer-events:none; }
+    .sp-eyebrow { font-family:var(--fd); font-size:9px; letter-spacing:5px; text-transform:uppercase; color:var(--gold); margin-bottom:14px; }
+    .sp-title   { font-family:var(--fd); font-size:32px; font-weight:700; color:#fff; letter-spacing:4px; text-transform:uppercase; margin-bottom:14px; }
+    .sp-desc    { font-size:17px; font-style:italic; color:#b0a898; max-width:520px; margin:0 auto 32px; line-height:1.7; }
+    .sp-btns    { display:flex; justify-content:center; gap:14px; flex-wrap:wrap; }
+
+    /* CONTATTI */
+    #contatti { background:var(--cream); padding:72px 28px; }
+    .ct-grid { display:grid; grid-template-columns:1fr 1fr; gap:48px; max-width:900px; margin:0 auto; }
+    .ct-sub  { font-family:var(--fd); font-size:10px; letter-spacing:4px; text-transform:uppercase; color:var(--red); margin-bottom:22px; }
+    .ct-row  { display:flex; gap:14px; margin-bottom:16px; align-items:flex-start; }
+    .ct-icon { width:28px; height:28px; background:var(--ink); display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+    .ct-icon svg { width:13px; height:13px; fill:var(--gold); }
+    .ct-txt  { font-size:14px; color:var(--smoke); }
+    .ct-txt strong { display:block; font-family:var(--fd); font-size:9px; letter-spacing:2px; text-transform:uppercase; color:var(--ink); font-weight:400; margin-bottom:2px; }
+    .assoc-pills { display:flex; gap:8px; flex-wrap:wrap; margin-top:20px; }
+    .ap { font-family:var(--fd); font-size:8px; letter-spacing:1.5px; text-transform:uppercase; color:var(--smoke); border:1px solid var(--ash); padding:4px 11px; }
+    .form-row { margin-bottom:12px; }
+    .form-row input, .form-row textarea, .form-row select { width:100%; background:var(--white); border:1px solid var(--ash); border-bottom:2px solid var(--ash); padding:10px 13px; font-family:var(--fb); font-size:14px; color:var(--ink); outline:none; transition:border-color .2s; }
+    .form-row input:focus, .form-row textarea:focus { border-bottom-color:var(--red); }
+    .form-row textarea { height:88px; resize:none; }
+
+    /* FOOTER */
+    footer { background:#0f0a05; padding:28px 32px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px; }
+    .ft-logo { font-family:var(--fd); font-size:15px; font-weight:900; color:rgba(255,255,255,.45); letter-spacing:3px; text-transform:uppercase; }
+    .ft-logo span { color:var(--gold); }
+    .ft-txt  { font-family:var(--fd); font-size:8px; letter-spacing:2px; text-transform:uppercase; color:rgba(255,255,255,.2); }
+
+    /* RESPONSIVE */
+    @media (max-width:900px) {
+      .stats-bar   { grid-template-columns:repeat(3,1fr); }
+      .disc-grid   { grid-template-columns:1fr; }
+      .orari-grid  { grid-template-columns:repeat(2,1fr); }
+      .gal-grid    { grid-template-columns:repeat(3,1fr); }
+      .eventi-grid { grid-template-columns:repeat(2,1fr); }
+      .maestri-grid{ grid-template-columns:repeat(2,1fr); }
+      .ct-grid     { grid-template-columns:1fr; }
+    }
+    @media (max-width:620px) {
+      .nav-links, #nav-cta { display:none; }
+      .nav-toggle { display:flex; }
+      .stats-bar   { grid-template-columns:repeat(2,1fr); }
+      .gal-grid    { grid-template-columns:repeat(2,1fr); }
+      .eventi-grid { grid-template-columns:1fr; }
+      .maestri-grid{ grid-template-columns:1fr; }
+      footer { flex-direction:column; text-align:center; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav" role="navigation" aria-label="Navigazione principale">
+  <a href="index.html" class="nav-logo">Il <span>Dojo</span></a>
+  <ul class="nav-links">
+    <li><a href="#discipline">Discipline</a></li>
+    <li><a href="mizuryu.html">Mizu Ryu</a></li>
+    <li><a href="#orari">Orari</a></li>
+    <li><a href="#galleria">Galleria</a></li>
+    <li><a href="gare.html">Gare</a></li>
+    <li><a href="#maestri">Maestri</a></li>
+    <li><a href="#contatti">Contatti</a></li>
+  </ul>
+  <button id="nav-cta" class="btn btn-red" onclick="document.getElementById('contatti').scrollIntoView({behavior:'smooth'})">Prima lezione gratis</button>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Apri menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<nav id="mob-menu" aria-label="Menu mobile">
+  <a href="#discipline" onclick="closeMob()">Discipline</a>
+  <a href="mizuryu.html" onclick="closeMob()">Mizu Ryu</a>
+  <a href="#orari"      onclick="closeMob()">Orari</a>
+  <a href="#galleria"   onclick="closeMob()">Galleria</a>
+  <a href="gare.html"   onclick="closeMob()">Gare</a>
+  <a href="#maestri"    onclick="closeMob()">Maestri</a>
+  <a href="#contatti"   onclick="closeMob()">Contatti</a>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-kamon" aria-hidden="true">武</div>
+  <p class="hero-eyebrow">A.S.D. Catania · FIJLKAM · CSAin · CONI · Dal 2016</p>
+  <h1 class="hero-title">Il <span>Dojo</span></h1>
+  <p class="hero-sub">Ju-Jitsu · Aikido · Difesa Personale · Catania</p>
+  <p class="hero-desc">Leader nelle arti marziali a livello nazionale, continentale e mondiale. Campioni del Mondo e d'Europa che si allenano qui ogni giorno.</p>
+  <div class="hero-badges">
+    <span class="badge">F.I.J.L.K.A.M.</span>
+    <span class="badge">C.S.A.In.</span>
+    <span class="badge">C.O.N.I.</span>
+    <span class="badge">Aikikai d'Italia</span>
+    <span class="badge">J.J.I.F. · J.J.E.U.</span>
+  </div>
+  <div class="hero-btns">
+    <button class="btn btn-red"  onclick="document.getElementById('contatti').scrollIntoView({behavior:'smooth'})">Inizia a praticare</button>
+    <button class="btn btn-out"  onclick="document.getElementById('discipline').scrollIntoView({behavior:'smooth'})">Scopri le discipline</button>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats-bar" role="region" aria-label="Statistiche">
+  <div class="stat-item"><div class="stat-num">27</div><div class="stat-lab">Medaglie Europei 2026</div></div>
+  <div class="stat-item"><div class="stat-num">20+</div><div class="stat-lab">Medaglie Mondiali</div></div>
+  <div class="stat-item"><div class="stat-num">Top 4</div><div class="stat-lab">World Games 2025</div></div>
+  <div class="stat-item"><div class="stat-num">28</div><div class="stat-lab">Medaglie Coppa Italia</div></div>
+  <div class="stat-item"><div class="stat-num">40+</div><div class="stat-lab">Anni di tradizione</div></div>
+</div>
+
+<div class="breaking">
+  <span class="brk-tag">Novità</span>
+  <p class="brk-text">Europei 2026 Heraklion: 10 ori, 5 argenti, 12 bronzi — Il Dojo firma oltre ¼ del medagliere azzurro · Team Italia: 101 medaglie totali</p>
+</div>
+
+<div class="upcoming" id="upcoming-bar">
+  <span class="upc-label">Prossimi impegni ›</span>
+  <!-- Caricato da contatti.json -->
+</div>
+
+<!-- ULTIMI EVENTI -->
+<section id="ultimi-eventi" aria-labelledby="ue-heading">
+  <div class="sec-header">
+    <p class="eyebrow">Dal campo di gara</p>
+    <h2 class="sec-title" id="ue-heading">Ultimi eventi</h2>
+    <div class="rule"></div>
+  </div>
+  <div class="eventi-grid" id="home-eventi-grid">
+    <!-- Caricato da JS — ultime 3 gare -->
+  </div>
+  <div class="ev-cta-wrap">
+    <a href="gare.html" class="btn btn-out">Vedi tutti gli eventi →</a>
+  </div>
+</section>
+
+<!-- DISCIPLINE -->
+<section id="discipline" aria-labelledby="disc-heading">
+  <div class="sec-header">
+    <p class="eyebrow">Cosa pratichiamo</p>
+    <h2 class="sec-title" id="disc-heading">Le nostre discipline</h2>
+    <div class="rule"></div>
+  </div>
+  <div class="disc-grid">
+    <article class="disc-card" style="cursor:pointer" onclick="location.href='mizuryu.html'">
+      <div class="disc-num">01 / 04</div>
+      <h3 class="disc-title">Mizu Ryu Ju-Jitsu</h3>
+      <p class="disc-desc">Ideato da Hanshi Cosimo Costa, il Mizu Ryu® è un metodo originale fondato sulla biomeccanica e sul movimento umano. Non solo tecniche da copiare: principi che rendono ogni tecnica comprensibile e migliorabile.</p>
+      <div class="disc-tags"><span class="disc-tag">Agonismo</span><span class="disc-tag">Biomeccanica</span><span class="disc-tag">Tutte le età</span></div>
+      <div style="margin-top:14px; font-family:var(--fd); font-size:9px; letter-spacing:2px; text-transform:uppercase; color:var(--red);">Scopri il metodo →</div>
+    </article>
+    <article class="disc-card">
+      <div class="disc-num">02 / 04</div>
+      <h3 class="disc-title">Tai No Sen Aikido</h3>
+      <p class="disc-desc">Lo scopo del Tai No Sen è allenare mente e corpo per formare persone oneste e sincere. Il Maestro Fabio Cavallaro guida il dojo "Tai no Sen 155" dal 1994, insegnante ed esaminatore Aikikai Foundation (AF-31414).</p>
+      <div class="disc-tags"><span class="disc-tag">Mente e corpo</span><span class="disc-tag">Adulti</span></div>
+    </article>
+    <article class="disc-card">
+      <div class="disc-num">03 / 04</div>
+      <h3 class="disc-title">Progetto P.I.D.</h3>
+      <p class="disc-desc">Il progetto PiD (Prevenzione &amp; Difesa Attiva) nasce da un'idea dei Prof. Costa &amp; Cavallaro. Attraverso un innovativo sistema didattico sviluppa piena coscienza delle reazioni corporali a stress e paura — 7 lezioni per sperimentare un nuovo modo di vivere i propri sensi. Non tecniche da memorizzare: armonia mente-corpo per cogliere le inerzie di chi aggredisce.</p>
+      <div class="disc-tags"><span class="disc-tag">Sicurezza</span><span class="disc-tag">Prevenzione</span><span class="disc-tag">Adulti</span></div>
+    </article>
+    <article class="disc-card">
+      <div class="disc-num">04 / 04</div>
+      <h3 class="disc-title">Ju-Jitsu Sportivo</h3>
+      <p class="disc-desc">Duo Show, Duo System, Fighting System, Ne-Waza e Grappling. L'associazione promuove attività agonistica a livello regionale, nazionale e mondiale accompagnando gli atleti in un percorso di crescita sportiva e personale. Ambiente sano, formativo e orientato al miglioramento continuo.</p>
+      <div class="disc-tags"><span class="disc-tag">Competizione</span><span class="disc-tag">Team Italia</span><span class="disc-tag">Mondiali</span></div>
+    </article>
+  </div>
+</section>
+
+<!-- ORARI -->
+<section id="orari" aria-labelledby="orari-heading">
+  <h2 class="orari-title" id="orari-heading">Turni e orari di allenamento</h2>
+  <div class="orari-grid" id="orari-grid">
+    <!-- Caricato da orari.json -->
+  </div>
+</section>
+
+<!-- GALLERIA -->
+<section id="galleria" aria-labelledby="gal-heading">
+  <div class="sec-header">
+    <p class="eyebrow">Le nostre foto</p>
+    <h2 class="sec-title" id="gal-heading">Galleria</h2>
+    <div class="rule"></div>
+  </div>
+  <div class="gal-filters" role="group" aria-label="Filtra galleria">
+    <button class="gal-btn active" data-filter="all">Tutti</button>
+    <button class="gal-btn" data-filter="gare">Gare</button>
+    <button class="gal-btn" data-filter="stage">Stage</button>
+    <button class="gal-btn" data-filter="camp">Summer Camp</button>
+    <button class="gal-btn" data-filter="bambini">Bambini</button>
+    <button class="gal-btn" data-filter="mondiali">Mondiali</button>
+  </div>
+  <div class="gal-grid" id="gal-grid">
+    <a class="gal-item glightbox" data-category="mondiali" href="assets/img_dojo/Gallery/HOME.jpeg" data-title="Bangkok 2025" data-description="Costa G. & La Rosa A. — Campionesse del Mondo Duo Women Adults">
+      <img src="assets/img_dojo/Gallery/HOME.jpeg" alt="Costa e La Rosa campionesse del mondo Ju-Jitsu Bangkok 2025" loading="lazy">
+      <div class="gal-over"><div class="gal-cap"><span>Mondiali</span>Bangkok 2025</div></div>
+    </a>
+    <a class="gal-item glightbox" data-category="gare" href="assets/img_dojo/costa.jpg" data-title="Hanshi Cosimo Costa" data-description="Hanshi Cosimo Costa — 7° Dan Ju-Jitsu, Direttore Tecnico">
+      <img src="assets/img_dojo/costa.jpg" alt="Hanshi Cosimo Costa direttore tecnico Il Dojo Catania" loading="lazy">
+      <div class="gal-over"><div class="gal-cap"><span>Maestri</span>Hanshi Costa</div></div>
+    </a>
+    <a class="gal-item glightbox" data-category="gare" href="assets/img_dojo/sport2.jpg" data-title="Ju-Jitsu Sportivo" data-description="Allenamento Ju-Jitsu sportivo — ASD Il Dojo Catania">
+      <img src="assets/img_dojo/sport2.jpg" alt="Allenamento Ju-Jitsu sportivo ASD Il Dojo Catania" loading="lazy">
+      <div class="gal-over"><div class="gal-cap"><span>Gare</span>Ju-Jitsu Sportivo</div></div>
+    </a>
+    <a class="gal-item glightbox" data-category="stage" href="assets/img_dojo/aikido.png" data-title="Tai No Sen Aikido" data-description="Aikido Tai No Sen — Catania">
+      <img src="assets/img_dojo/aikido.png" alt="Aikido Tai No Sen Il Dojo Catania" loading="lazy">
+      <div class="gal-over"><div class="gal-cap"><span>Stage</span>Aikido</div></div>
+    </a>
+    <a class="gal-item glightbox" data-category="bambini" href="assets/img_dojo/pid.jpg" data-title="Corso Draghi" data-description="Corso bambini Baby Draghi — ASD Il Dojo Catania">
+      <img src="assets/img_dojo/pid.jpg" alt="Corso bambini Baby Draghi Il Dojo Catania" loading="lazy">
+      <div class="gal-over"><div class="gal-cap"><span>Bambini</span>Corso Draghi</div></div>
+    </a>
+    <a class="gal-item glightbox" data-category="mondiali" href="assets/img_dojo/mizu_ryu.jpg" data-title="Mizu Ryu" data-description="Ju-Jitsu Metodo Mizu Ryu — ASD Il Dojo Catania">
+      <img src="assets/img_dojo/mizu_ryu.jpg" alt="Mizu Ryu Ju-Jitsu ASD Il Dojo Catania" loading="lazy">
+      <div class="gal-over"><div class="gal-cap"><span>Mondiali</span>Mizu Ryu</div></div>
+    </a>
+    <a class="gal-item glightbox" data-category="camp" href="assets/img_dojo/russo.jpeg" data-title="Summer Camp" data-description="Summer Camp annuale Il Dojo">
+      <img src="assets/img_dojo/russo.jpeg" alt="Summer Camp Ju-Jitsu Il Dojo Catania" loading="lazy">
+      <div class="gal-over"><div class="gal-cap"><span>Summer Camp</span>Stage estivo</div></div>
+    </a>
+    <a class="gal-item glightbox" data-category="gare" href="assets/img_dojo/cavallaro.jpg" data-title="M° Fabio Cavallaro" data-description="Fabio Cavallaro — Aikikai d'Italia AF-31414">
+      <img src="assets/img_dojo/cavallaro.jpg" alt="Fabio Cavallaro Aikido Aikikai Il Dojo Catania" loading="lazy">
+      <div class="gal-over"><div class="gal-cap"><span>Maestri</span>M° Cavallaro</div></div>
+    </a>
+  </div>
+</section>
+
+<!-- MAESTRI -->
+<section id="maestri" aria-labelledby="m-heading">
+  <div class="sec-header">
+    <p class="eyebrow">I nostri capi scuola</p>
+    <h2 class="sec-title" id="m-heading">I Maestri</h2>
+    <div class="rule"></div>
+  </div>
+  <div class="maestri-grid">
+    <div class="m-card">
+      <div class="m-av" aria-hidden="true">CC</div>
+      <div class="m-name">Cosimo Costa</div>
+      <div class="m-title">Hanshi &amp; Direttore Tecnico</div>
+      <p class="m-bio">Tecnico responsabile Team Italia FIJLKAM per Duo e Show. Professore universitario UniCt. Guida gli atleti in azzurro da Heraklion a Bangkok a Chengdu.</p>
+      <span class="m-dan">7° Dan JJ · 1° Dan Judo · 1° Dan Kendo</span>
+    </div>
+    <div class="m-card">
+      <div class="m-av" aria-hidden="true">FC</div>
+      <div class="m-name">Fabio Cavallaro</div>
+      <div class="m-title">Aikikai d'Italia</div>
+      <p class="m-bio">Pratica Arti Marziali dal 1975. Responsabile del dojo "Tai no Sen 155" dal 1994. Insegnante ed esaminatore Aikikai Foundation (AF-31414).</p>
+      <span class="m-dan">Aikikai Foundation</span>
+    </div>
+    <div class="m-card">
+      <div class="m-av" aria-hidden="true">MR</div>
+      <div class="m-name">Massimo Russo</div>
+      <div class="m-title">Presidente del Dojo</div>
+      <p class="m-bio">Allievo diretto di Hanshi Costa dal 1984. Co-fondatore dell'A.S.D. il 5 settembre 2016. Arbitro nazionale FIJLKAM dal 2019.</p>
+      <span class="m-dan">3° Dan JJ · 3° Dan CSAin</span>
+    </div>
+  </div>
+</section>
+
+<!-- SPONSOR -->
+<section id="sponsor">
+  <p class="sp-eyebrow">Diventa partner del Dojo</p>
+  <h2 class="sp-title">Sponsorizzaci</h2>
+  <p class="sp-desc">Campioni del Mondo, d'Europa e tra i migliori ai World Games. Atleti del Team Italia FIJLKAM seguiti da media locali e rete social internazionale in crescita.</p>
+  <div class="sp-btns">
+    <a href="mailto:asd.ildojo@gmail.com?subject=Proposta%20sponsorizzazione" class="btn btn-red">Contattaci ora</a>
+    <a href="#contatti" class="btn btn-out">Scopri i benefit</a>
+  </div>
+</section>
+
+<!-- CONTATTI -->
+<section id="contatti" aria-labelledby="ct-heading">
+  <div class="sec-header">
+    <p class="eyebrow">Vieni ad allenarti</p>
+    <h2 class="sec-title" id="ct-heading">Contatti</h2>
+    <div class="rule"></div>
+  </div>
+  <div class="ct-grid">
+    <div>
+      <p class="ct-sub">Dove siamo</p>
+      <address style="font-style:normal">
+        <div class="ct-row">
+          <div class="ct-icon"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg></div>
+          <div class="ct-txt"><strong>Indirizzo</strong>Viale Vittorio Veneto 20, Catania CT 95127</div>
+        </div>
+        <div class="ct-row">
+          <div class="ct-icon"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg></div>
+          <div class="ct-txt"><strong>Email</strong><a href="mailto:asd.ildojo@gmail.com">asd.ildojo@gmail.com</a></div>
+        </div>
+        <div class="ct-row">
+          <div class="ct-icon"><svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg></div>
+          <div class="ct-txt"><strong>Segreteria</strong><a href="tel:+393295594970">+39 329 55 94 970</a></div>
+        </div>
+        <div class="ct-row">
+          <div class="ct-icon"><svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg></div>
+          <div class="ct-txt"><strong>Hanshi Costa</strong><a href="tel:+393284816083">+39 328 48 16 083</a></div>
+        </div>
+      </address>
+      <div class="assoc-pills">
+        <span class="ap">FIJLKAM</span><span class="ap">CSAin</span><span class="ap">CONI</span><span class="ap">Aikikai</span><span class="ap">JJIF</span>
+      </div>
+    </div>
+    <div>
+      <p class="ct-sub">Scrivici</p>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="hidden" name="_subject" value="Messaggio dal sito Il Dojo">
+        <div class="form-row"><input type="text"  name="nome"     placeholder="Nome e cognome" required></div>
+        <div class="form-row"><input type="email" name="email"    placeholder="Email"          required></div>
+        <div class="form-row"><input type="tel"   name="telefono" placeholder="Telefono (opzionale)"></div>
+        <div class="form-row">
+          <select name="interesse">
+            <option value="" disabled selected>Interesse</option>
+            <option>Ju-Jitsu / Mizu Ryu</option>
+            <option>Aikido</option>
+            <option>Difesa Personale</option>
+            <option>Corso bambini</option>
+            <option>Sponsorizzazione</option>
+            <option>Altro</option>
+          </select>
+        </div>
+        <div class="form-row"><textarea name="messaggio" placeholder="Il tuo messaggio..." required></textarea></div>
+        <button type="submit" class="btn btn-red" style="width:100%">Invia messaggio</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <a href="index.html" class="ft-logo">A.S.D. Il <span>Dojo</span></a>
+  <div class="ft-txt">© 2016–2026 A.S.D. Il Dojo · Viale Vittorio Veneto 20, Catania · <a href="mailto:asd.ildojo@gmail.com" style="color:inherit">asd.ildojo@gmail.com</a><br>P.IVA 06117160876 · C.F. 93211800870</div>
+  <div style="font-family:var(--fd); font-size:8px; letter-spacing:1.5px; text-transform:uppercase; color:var(--gold-lt); border:1px solid rgba(184,147,42,.3); padding:6px 14px; text-align:center;">
+    Sostienici con il<br><strong style="font-size:11px;">5 × 1000</strong><br>C.F. 93211800870
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script src="gare.js"></script>
+<script>
+  /* ── GLightbox ── */
+  GLightbox({ selector:'.glightbox', touchNavigation:true, loop:true });
+
+  /* ── Galleria filter ── */
+  document.querySelectorAll('.gal-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.gal-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const f = btn.dataset.filter;
+      document.querySelectorAll('.gal-item').forEach(item => {
+        item.dataset.hidden = (f !== 'all' && item.dataset.category !== f) ? 'true' : 'false';
+      });
+    });
+  });
+
+  /* ── Carica ultimi 3 eventi in homepage ── */
+  function makeHomeCard(g) {
+    const medals = (g.risultati || []).slice(0,3).map(r => {
+      const cls = r.medaglia.includes('🥇') ? 'oro' : r.medaglia.includes('🥈') ? 'argento' : 'bronzo';
+      return `<span class="ev-pill ${cls}">${r.medaglia} ${r.specialita||r.categoria_ris||''}</span>`;
+    }).join('');
+    const cover = coverSrc(g._slug);
+    return `
+    <article class="ev-card" onclick="location.href='gare.html?gara=${g._slug}'" role="button" tabindex="0">
+      <div class="ev-img">
+        <img src="${cover}" alt="${g.immagine_alt||g.titolo}" loading="lazy"
+             onerror="this.src='assets/img_dojo/Gallery/HOME.jpeg'">
+        <span class="ev-flag">${g.bandiera||'🇮🇹'}</span>
+        <span class="ev-cat">${CAT_LABEL[g.categoria]||g.categoria}</span>
+      </div>
+      <div class="ev-body">
+        <div class="ev-date">${fmtData(g.data)} · ${g.luogo||''}</div>
+        <h3 class="ev-title">${g.titolo}</h3>
+        <p class="ev-intro">${g.intro||''}</p>
+        <div class="ev-medals">${medals}</div>
+        <span class="ev-more">Leggi il resoconto →</span>
+      </div>
+    </article>`;
+  }
+
+  async function initHome() {
+    const gare = await loadAllGare();
+
+    /* prossimi impegni da contatti.json */
+    try {
+      const ct = await fetch('_data/contatti.json').then(r => r.json());
+      const bar = document.getElementById('upcoming-bar');
+      (ct.prossimi_impegni || []).forEach(e => {
+        bar.insertAdjacentHTML('beforeend',
+          `<span class="upc-pill">${e.nome} · ${e.luogo}</span>`);
+      });
+    } catch(e) {}
+
+    /* orari */
+    try {
+      const or = await fetch('_data/orari.json').then(r => r.json());
+      const grid = document.getElementById('orari-grid');
+      (or.turni || []).forEach(t => {
+        grid.insertAdjacentHTML('beforeend', `
+          <div class="o-card">
+            <div class="o-age">${t.fascia_eta}</div>
+            <div class="o-lab">${t.nome}</div>
+            <div class="o-time">${t.orario}</div>
+            <div class="o-days">${t.giorni}</div>
+          </div>`);
+      });
+    } catch(e) {}
+
+    /* ultime 3 gare */
+    const grid = document.getElementById('home-eventi-grid');
+    gare.slice(0,3).forEach(g => grid.insertAdjacentHTML('beforeend', makeHomeCard(g)));
+  }
+
+  initHome();
+
+  /* ── Mobile nav ── */
+  const tog = document.getElementById('nav-toggle');
+  const mob = document.getElementById('mob-menu');
+  tog.addEventListener('click', () => {
+    const open = mob.classList.toggle('open');
+    tog.setAttribute('aria-expanded', open);
+  });
+  function closeMob() { mob.classList.remove('open'); tog.setAttribute('aria-expanded','false'); }
+</script>
+</body>
+</html>

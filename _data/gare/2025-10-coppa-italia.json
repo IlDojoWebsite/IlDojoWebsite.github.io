@@ -1,0 +1,23 @@
+{
+  "titolo": "Coppa Italia FIJLKAM 2025",
+  "data": "2025-10-18",
+  "luogo": "Italia",
+  "bandiera": "🇮🇹",
+  "categoria": "coppaitalia",
+  "immagine_alt": "Coppa Italia Ju-Jitsu 2025 Il Dojo Catania 28 medaglie 11 ori 4° su 44 società",
+  "intro": "28 medaglie (11 ori, 10 argenti, 7 bronzi). 4° posizione su 44 società. Uno dei migliori risultati di sempre in questa competizione nazionale.",
+  "corpo": "Il Dojo Catania torna dalla Coppa Italia 2025 con 11 ori, 10 argenti e 7 bronzi, raggiungendo la quarta posizione nella classifica generale su 44 società — una delle migliori piazzature di sempre per il club etneo.\n\nNel settore Adults vittorie nel Duo Mix (Costa G. & Amore S.), Duo Femminile (Costa G. & La Rosa A.) e Duo Maschile (Amore S. & Adornetto S.). Diversi podi anche nelle categorie giovanili U18 e U14.\n\nUn risultato che pone solide basi per i Mondiali di Bangkok in programma a novembre e conferma il Dojo tra i primi quattro club italiani nel Ju-Jitsu sportivo.",
+  "risultati": [
+    { "medaglia": "🥇", "specialita": "Duo Mix Adults",     "atleti": "Costa G. & Amore S." },
+    { "medaglia": "🥇", "specialita": "Duo Women Adults",   "atleti": "Costa G. & La Rosa A." },
+    { "medaglia": "🥇", "specialita": "Duo Men Adults",     "atleti": "Amore S. & Adornetto S." },
+    { "medaglia": "🥇", "specialita": "8 ori in categorie giovanili U18/U14", "atleti": "Team Il Dojo" },
+    { "medaglia": "🥈", "specialita": "10 argenti totali",  "atleti": "Team Il Dojo" },
+    { "medaglia": "🥉", "specialita": "7 bronzi totali — 28 medaglie", "atleti": "4° su 44 società" }
+  ],
+  "fonti": [
+    { "testata": "Catania Today",    "url": "https://www.cataniatoday.it/sport/altro/ju-jitsu-fasano-dojo-conquista-11-ori-28-medaglie-coppa-italia.html" },
+    { "testata": "Freepressonline",  "url": "https://www.freepressonline.it/2025/10/21/il-dojo-catania-trionfa-alla-coppa-italia-2025/" }
+  ],
+  "evidenza": false
+}
