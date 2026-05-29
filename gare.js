@@ -14,6 +14,7 @@ const GARE_FILES = [
   '2025-10-beveren-europei',
   '2025-10-coppa-italia',
   '2025-04-paris-grandprix',
+  '2026-05-summercamp.json',
   // ← AGGIUNGI QUI i nuovi file (solo il nome, senza .json)
 ];
 
