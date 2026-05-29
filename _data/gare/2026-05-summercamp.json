@@ -1,13 +1,17 @@
 {
-  "titolo": "Summer camp 2026",
-  "data": "2026-05-22",
-  "luogo": "Sicilia, Modica",
-  "bandiera": "IT",
-  "categoria": "stage",
-  "immagine_alt": "Foto Summer camp 2026",
-  "intro": "Evento più atteso dell'anno",
-  "corpo": "Evento conclusivo dell'anno ",
-  "fonti": [
+  "titolo": "Titolo della gara",
+  "data": "2026-05-10",
+  "luogo": "Città, Nazione",
+  "bandiera": "🇮🇹",
+  "categoria": "europei",
+  "intro": "Breve testo per la card (max 200 caratteri)",
+  "corpo": "Testo completo...\n\nSecondo paragrafo.\n\n**Grassetto** e *corsivo* supportati.",
+  "risultati": [
+    { "medaglia": "🥇", "specialita": "Duo Men Adults", "atleti": "Nome A. & Nome B." },
+    { "medaglia": "🥈", "specialita": "Show Women",     "atleti": "Nome C. & Nome D." }
   ],
-  "evidenza": true
+  "fonti": [
+    { "testata": "La Sicilia", "url": "https://..." }
+  ],
+  "evidenza": false
 }
