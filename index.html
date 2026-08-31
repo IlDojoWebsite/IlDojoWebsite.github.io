@@ -570,8 +570,7 @@
     </div>
     <div>
       <p class="ct-sub">Scrivici</p>
-      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <input type="hidden" name="_subject" value="Messaggio dal sito Il Dojo">
+      <form id="contact-form" onsubmit="inviaMessaggio(event)">
         <div class="form-row"><input type="text"  name="nome"     placeholder="Nome e cognome" required></div>
         <div class="form-row"><input type="email" name="email"    placeholder="Email"          required></div>
         <div class="form-row"><input type="tel"   name="telefono" placeholder="Telefono (opzionale)"></div>
@@ -588,6 +587,9 @@
         </div>
         <div class="form-row"><textarea name="messaggio" placeholder="Il tuo messaggio..." required></textarea></div>
         <button type="submit" class="btn btn-red" style="width:100%">Invia messaggio</button>
+        <p id="form-sent" style="display:none;font-family:var(--fd);font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-top:14px;text-align:center;">
+          ✓ Il tuo client email si aprirà con il messaggio pronto
+        </p>
       </form>
     </div>
   </div>
@@ -653,6 +655,34 @@
 
   initHome();
 
+  /* ── Form contatti → mailto ── */
+  function inviaMessaggio(e) {
+    e.preventDefault();
+    const f = document.getElementById('contact-form');
+    const nome      = f.querySelector('[name="nome"]').value.trim();
+    const email     = f.querySelector('[name="email"]').value.trim();
+    const telefono  = f.querySelector('[name="telefono"]').value.trim();
+    const interesse = f.querySelector('[name="interesse"]').value;
+    const messaggio = f.querySelector('[name="messaggio"]').value.trim();
+
+    const corpo = [
+      `Nome: ${nome}`,
+      `Email: ${email}`,
+      telefono ? `Telefono: ${telefono}` : '',
+      interesse ? `Interesse: ${interesse}` : '',
+      '',
+      messaggio
+    ].filter(Boolean).join('\n');
+
+    const mailto = `mailto:asd.ildojo@gmail.com`
+      + `?subject=${encodeURIComponent('Messaggio dal sito — ' + nome)}`
+      + `&body=${encodeURIComponent(corpo)}`;
+
+    window.location.href = mailto;
+    document.getElementById('form-sent').style.display = 'block';
+    f.reset();
+  }
+  
   /* ── Mobile nav ── */
   const tog = document.getElementById('nav-toggle');
   const mob = document.getElementById('mob-menu');
