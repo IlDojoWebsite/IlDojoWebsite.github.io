@@ -8,14 +8,14 @@
  */
 
 const GARE_FILES = [
+  '2026-08-mondiali-abu-dhabi',      // ← NUOVO
   '2026-03-europei-heraklion',
   '2025-11-bangkok-mondiali',
   '2025-08-world-games-chengdu',
   '2025-10-beveren-europei',
   '2025-10-coppa-italia',
   '2025-04-paris-grandprix',
-  '2026-05-summercamp.json',
-  // ← AGGIUNGI QUI i nuovi file (solo il nome, senza .json)
+  // ← aggiungi nuovi file qui in cima dopo ogni gara
 ];
 
 const GARE_BASE_PATH = '_data/gare/';
