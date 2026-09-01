@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina non trovata — Il Dojo Catania</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Crimson+Text:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+    :root {
+      --ink:    #1a1108;
+      --red:    #C0190F;
+      --gold:   #B8932A;
+      --gold-lt:#D4AD4A;
+      --smoke:  #6B6258;
+      --fd: 'Cinzel', serif;
+      --fb: 'Crimson Text', serif;
+    }
+    html, body { height: 100%; }
+    body {
+      font-family: var(--fb);
+      background: var(--ink);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 40px 24px;
+      position: relative;
+      overflow: hidden;
+    }
+    body::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        45deg, transparent, transparent 40px,
+        rgba(176,19,9,.04) 40px, rgba(176,19,9,.04) 41px
+      );
+      pointer-events: none;
+    }
+
+    .kamon {
+      position: absolute;
+      font-size: 320px;
+      font-family: serif;
+      color: var(--gold);
+      opacity: .04;
+      user-select: none;
+      pointer-events: none;
+      line-height: 1;
+    }
+
+    .content { position: relative; z-index: 1; max-width: 560px; }
+
+    .num {
+      font-family: var(--fd);
+      font-size: clamp(80px, 18vw, 140px);
+      font-weight: 900;
+      color: var(--red);
+      letter-spacing: 8px;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .rule {
+      width: 48px;
+      height: 2px;
+      background: var(--gold);
+      margin: 0 auto 24px;
+    }
+
+    .title {
+      font-family: var(--fd);
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #fff;
+      margin-bottom: 16px;
+    }
+
+    .desc {
+      font-size: 18px;
+      font-style: italic;
+      color: rgba(255,255,255,.55);
+      line-height: 1.7;
+      margin-bottom: 40px;
+    }
+
+    .links {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 48px;
+    }
+
+    .btn {
+      font-family: var(--fd);
+      font-size: 10px;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      padding: 13px 28px;
+      text-decoration: none;
+      transition: opacity .2s;
+      border: none;
+      cursor: pointer;
+    }
+    .btn:hover { opacity: .82; }
+    .btn-red  { background: var(--red);   color: #fff; }
+    .btn-out  { background: transparent;  color: var(--gold-lt); border: 1px solid var(--gold); }
+
+    .logo {
+      font-family: var(--fd);
+      font-size: 14px;
+      font-weight: 900;
+      color: rgba(255,255,255,.3);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-decoration: none;
+      margin-top: 8px;
+      display: inline-block;
+    }
+    .logo span { color: var(--gold); }
+
+    .quick-links {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 32px;
+    }
+    .quick-links a {
+      font-family: var(--fd);
+      font-size: 9px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.35);
+      text-decoration: none;
+      transition: color .2s;
+    }
+    .quick-links a:hover { color: var(--gold-lt); }
+
+    @media (max-width: 480px) {
+      .links { flex-direction: column; align-items: center; }
+      .btn { width: 220px; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="kamon" aria-hidden="true">武</div>
+
+  <div class="content">
+    <div class="num">404</div>
+    <div class="rule"></div>
+    <h1 class="title">Pagina non trovata</h1>
+    <p class="desc">La pagina che cerchi non esiste o è stata spostata.<br>Torna alla home o esplora le nostre sezioni.</p>
+
+    <div class="links">
+      <a href="/" class="btn btn-red">Torna alla home</a>
+      <a href="/gare.html" class="btn btn-out">Gare ed eventi</a>
+    </div>
+
+    <a href="/" class="logo">Il <span>Dojo</span></a>
+
+    <div class="quick-links">
+      <a href="/#discipline">Discipline</a>
+      <a href="/mizuryu.html">Mizu Ryu</a>
+      <a href="/#orari">Orari</a>
+      <a href="/#maestri">Maestri</a>
+      <a href="/#contatti">Contatti</a>
+    </div>
+  </div>
+
+</body>
+</html>
