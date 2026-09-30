@@ -1,0 +1,45 @@
+{
+  "titolo": "21° Balkan Open Championship / World Cup 2026",
+  "data": "2026-09-10",
+  "luogo": "Banja Luka, Bosnia ed Erzegovina",
+  "bandiera": "🇧🇦",
+  "categoria": "internazionale",
+  "immagine_alt": "Balkan Open 2026 Banja Luka ASD Il Dojo CSAIn Catania 36 medaglie 12 ori",
+  "intro": "36 medaglie (12 ori, 14 argenti, 10 bronzi) a Banja Luka. Il Dojo firma 12 titoli nelle categorie Duo e Show da U14 ad Adults, contribuendo al 1° posto dell'Italia nella classifica World Cup con 87 medaglie complessive.",
+  "corpo": "Il 21° Balkan Open Championship / World Cup 2026 si è disputato a Banja Luka (Bosnia ed Erzegovina) dal 10 al 13 settembre 2026, a poche settimane dai Mondiali di Abu Dhabi 2026 dove il Dojo aveva conquistato 13 medaglie e 7 titoli iridati.\n\nLa squadra dell'ASD Il Dojo CSAIn Catania ha risposto con una prestazione straordinaria anche sul tatami bosniaco: **36 medaglie totali — 12 ori, 14 argenti e 10 bronzi** — nelle discipline Duo e Show dalle categorie U14 agli Adults.\n\n**Prima giornata** — 4 ori: Sebastiano Amore e Salvatore Luca Adornetto si sono imposti nel Duo Men U21/Adults Merged e nello Show Adults Open Merged; Giordana Lombardo e Adriana Petralia hanno conquistato l'oro nel Duo Women U21; Giovanni Cardillo e Angelo Zito hanno vinto lo Show U21 Open Merged. Tre argenti aggiuntivi per Cardillo & Zito (Duo), Zito & Lombardo (Show) e Costa G. & Amore S. (Show).\n\n**Seconda giornata** — 5 ori: Giada Costa e Sebastiano Amore campioni nel Duo Adults Mix; Amore e Adornetto bis nell'oro del Duo Open; per le categorie giovanili U14 tre ori filati — Luca Cannavò & Alessio Fazio (Show Male U14), Fabiola Torresi & Miriam Finocchiaro (Duo Female U14) e Miriam Finocchiaro & Alessandro Canfarelli (Show Mix U14).\n\n**Terza giornata** — 3 ori: Sofia Calcagno e Lorenzo Ingarao doppietta nel Duo Mix U18/U21 e nello Show Women/Mix U18; Paolo Panebianco e Alessio Fazio oro nello Show Men U16.\n\nNello staff tecnico i Maestri Cosimo Costa, Alfio Petralia e l'atleta-maestro Massimo Amore (in gara), con Francesco Ensabella rimasto al Dojo. Il Maestro Salvatore Molino, impegnato in uno stage a Haugesund (Norvegia), ha coperto la sostituzione del M° Costa durante la trasferta.\n\nL'Italia ha chiuso il Balkan Open con **87 medaglie complessive e il 1° posto nella classifica World Cup**.",
+  "risultati": [
+    { "medaglia": "🥇", "specialita": "Duo Men U21/Adults Merged",   "atleti": "Amore S. & Adornetto S.L." },
+    { "medaglia": "🥇", "specialita": "Show Adults Open Merged",      "atleti": "Amore S. & Adornetto S.L." },
+    { "medaglia": "🥇", "specialita": "Duo Women U21",               "atleti": "Lombardo G. & Petralia A." },
+    { "medaglia": "🥇", "specialita": "Show U21 Open Merged",        "atleti": "Cardillo G. & Zito A." },
+    { "medaglia": "🥈", "specialita": "Duo Men U21",                 "atleti": "Cardillo G. & Zito A." },
+    { "medaglia": "🥈", "specialita": "Show Mix U21",                "atleti": "Zito A. & Lombardo G." },
+    { "medaglia": "🥈", "specialita": "Show Mix Adults",             "atleti": "Costa G. & Amore S." },
+    { "medaglia": "🥇", "specialita": "Duo Adults Mix",              "atleti": "Costa G. & Amore S." },
+    { "medaglia": "🥇", "specialita": "Duo Open",                    "atleti": "Amore S. & Adornetto S.L." },
+    { "medaglia": "🥇", "specialita": "Show Male U14",               "atleti": "Cannavò L. & Fazio A." },
+    { "medaglia": "🥇", "specialita": "Duo Female U14",              "atleti": "Torresi F. & Finocchiaro M." },
+    { "medaglia": "🥇", "specialita": "Show Mix U14",                "atleti": "Finocchiaro M. & Canfarelli A." },
+    { "medaglia": "🥇", "specialita": "Duo Mix U18/U21",             "atleti": "Calcagno S. & Ingarao L." },
+    { "medaglia": "🥇", "specialita": "Show Men U16",                "atleti": "Panebianco P. & Fazio A." },
+    { "medaglia": "🥇", "specialita": "Show Women/Mix U18",          "atleti": "Calcagno S. & Ingarao L." }
+  ],
+  "note_medaglie": "36 medaglie totali: 12 ori, 14 argenti, 10 bronzi. Nella tabella sono riportati i 12 ori e i 3 argenti nominativi disponibili; le restanti 11 medaglie d'argento e 10 di bronzo sono distribuite tra le categorie U14–Adults nelle discipline Duo e Show.",
+  "staff": [
+    "M° Cosimo Costa (tecnico in gara)",
+    "M° Alfio Petralia (tecnico in gara)",
+    "Massimo Amore (atleta e tecnico in gara)",
+    "M° Francesco Ensabella (al Dojo)",
+    "M° Salvatore Molino (stage Haugesund, NO — sostituzione Costa)"
+  ],
+  "contesto": "La trasferta a Banja Luka è arrivata a tre settimane dai Mondiali di Abu Dhabi 2026 (agosto), dove Il Dojo/CSAIn aveva conquistato 13 medaglie (7 ori, 4 argenti, 2 bronzi). L'Italia ha chiuso il Balkan Open con 87 medaglie complessive e il 1° posto nella classifica World Cup.",
+  "fonti": [
+    { "testata": "La Nazione Siciliana",  "url": "https://lanazionesiciliana.eu" },
+    { "testata": "Dedalo Multimedia",     "url": "https://dedalomultimedia.org" },
+    { "testata": "Hashtag Sicilia",       "url": "https://hashtagsicilia.it" },
+    { "testata": "Lurlo News (pre-gara)", "url": "https://lurlo.news" },
+    { "testata": "FIJLKAM — Italia 1ª in World Cup", "url": "https://fijlkam.it" },
+    { "testata": "Orari ufficiali (SportData)", "url": "https://sportdata.org" }
+  ],
+  "evidenza": true
+}
