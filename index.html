@@ -228,7 +228,8 @@
     #maestri { background:var(--white); padding:72px 28px; }
     .maestri-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:32px; }
     .m-card  { text-align:center; padding:28px 18px; background:var(--cream); border:1px solid var(--ash); }
-    .m-av    { width:68px; height:68px; border-radius:50%; background:var(--ink); margin:0 auto 14px; display:flex; align-items:center; justify-content:center; font-family:var(--fd); font-size:22px; font-weight:700; color:var(--gold); border:2px solid var(--red); }
+    .m-av    { width:80px; height:80px; border-radius:50%; background:var(--ink); margin:0 auto 14px; display:flex; align-items:center; justify-content:center; font-family:var(--fd); font-size:22px; font-weight:700; color:var(--gold); border:2px solid var(--red); overflow:hidden; }
+    .m-av img { width:100%; height:100%; object-fit:cover; }
     .m-name  { font-family:var(--fd); font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:4px; }
     .m-title { font-family:var(--fd); font-size:9px; letter-spacing:2px; text-transform:uppercase; color:var(--red); margin-bottom:12px; }
     .m-bio   { font-size:13.5px; font-style:italic; color:var(--smoke); line-height:1.55; }
@@ -509,21 +510,21 @@
   </div>
   <div class="maestri-grid">
     <div class="m-card">
-      <div class="m-av" aria-hidden="true">CC</div>
+      <div class="m-av"><img src="assets/img_dojo/maestri/maestro-costa.jpg" alt="Hanshi Cosimo Costa"></div>
       <div class="m-name">Cosimo Costa</div>
       <div class="m-title">Hanshi &amp; Direttore Tecnico</div>
       <p class="m-bio">Tecnico responsabile Team Italia FIJLKAM per Duo e Show. Professore universitario UniCt. Guida gli atleti azzurri da Bangkok ad Abu Dhabi, sul podio mondiale per il terzo anno consecutivo.</p>
       <span class="m-dan">7° Dan JJ · 1° Dan Judo · 1° Dan Kendo</span>
     </div>
     <div class="m-card">
-      <div class="m-av" aria-hidden="true">FC</div>
+      <div class="m-av"><img src="assets/img_dojo/maestri/maestro-cavallaro.jpg" alt="Maestro Fabio Cavallaro"></div>
       <div class="m-name">Fabio Cavallaro</div>
       <div class="m-title">Aikikai d'Italia</div>
       <p class="m-bio">Pratica Arti Marziali dal 1975. Responsabile del dojo "Tai no Sen 155" dal 1994. Insegnante ed esaminatore Aikikai Foundation (AF-31414).</p>
       <span class="m-dan">Aikikai Foundation</span>
     </div>
     <div class="m-card">
-      <div class="m-av" aria-hidden="true">AP</div>
+      <div class="m-av"><img src="assets/img_dojo/maestri/maestro-petralia.jpg" alt="Shihan Alfio Petralia"></div>
       <div class="m-name">Alfio Petralia</div>
       <div class="m-title">Shihan</div>
       <p class="m-bio">Responsabile Regionale stile Mizu Ryu FIJLKAM. Pratica arti marziali dal 1982.</p>
