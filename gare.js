@@ -15,7 +15,7 @@ const GARE_FILES = [
   '2025-08-world-games-chengdu',
   '2025-10-beveren-europei',
   '2025-10-coppa-italia',
-  '2025-04-paris-grandprix',
+  '2025-04-grand-prix-parigi',
   '2024-10-mondiali-heraklion',
 ];
 
