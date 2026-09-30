@@ -1,0 +1,26 @@
+{
+  "titolo": "World Championship Ju-Jitsu 2024 — Heraklion",
+  "data": "2024-10-23",
+  "luogo": "Heraklion, Creta, Grecia",
+  "bandiera": "🇬🇷",
+  "categoria": "mondiali",
+  "immagine_alt": "Mondiali Ju-Jitsu 2024 Heraklion ASD Il Dojo CSAIn Catania medaglie campioni del mondo",
+  "intro": "14 medaglie (4 ori, 5 argenti, 5 bronzi) nelle discipline Duo e Show, 9° posto su 58 nazioni. Primo mondiale consecutivo di una serie che porterà il Dojo a Bangkok 2025 e Abu Dhabi 2026.",
+  "corpo": "I Campionati Mondiali di Ju-Jitsu 2024 si sono svolti a Heraklion (Creta, Grecia) dal 23 ottobre al 4 novembre 2024, con le categorie Adults il 24–27 ottobre, le categorie giovanili (U16, U18, U21) dal 29 ottobre al 3 novembre e la World Cup U14 il 4 novembre. All'evento hanno partecipato oltre 260 atleti italiani, in rappresentanza di 58 nazioni.\n\nL'ASD Il Dojo CSAIn Catania ha chiuso i Mondiali con **14 medaglie — 4 ori, 5 argenti e 5 bronzi** — nelle discipline Duo System e Show System, piazzando il team al 9° posto nella classifica generale per nazioni.\n\nNella categoria Adults Salvatore Ensabella e Salvatore Molino si sono laureati **Campioni del Mondo nel Duo System Men**, aggiungendo due bronzi nello Show Open e nel Duo Show Men. Nelle categorie Under 21 Giada Costa e Alice La Rosa hanno conquistato l'**oro nel Duo Show Women U21**, mentre Giada Costa e Sebastiano Amore si sono fermati all'argento nello Show Open U21. Alice La Rosa e Salvatore Ensabella argento nello Show U21. Sebastiano Amore e Salvatore Luca Adornetto chiudono al 4° posto nel Duo System Male U21 (categoria Advanced).\n\nIl Maestro Cosimo Costa era tecnico azzurro della delegazione italiana.\n\nQuesto risultato segna l'inizio di un ciclo d'oro: il Dojo avrebbe poi replicato — migliorando — ai Mondiali di Bangkok 2025 e Abu Dhabi 2026, conquistando il titolo di meglio squadra italiana per tre mondiali consecutivi.",
+  "risultati": [
+    { "medaglia": "🥇", "specialita": "Duo System Men Adults",  "atleti": "Ensabella S. & Molino S." },
+    { "medaglia": "🥇", "specialita": "Duo Show Women U21",     "atleti": "Costa G. & La Rosa A." },
+    { "medaglia": "🥈", "specialita": "Show Open U21",          "atleti": "Costa G. & Amore S." },
+    { "medaglia": "🥈", "specialita": "Show U21",               "atleti": "La Rosa A. & Ensabella S." },
+    { "medaglia": "🥉", "specialita": "Show Open Adults",       "atleti": "Ensabella S. & Molino S." },
+    { "medaglia": "🥉", "specialita": "Duo Show Men Adults",    "atleti": "Ensabella S. & Molino S." }
+  ],
+  "note_medaglie": "Totale: 14 medaglie (4 ori, 5 argenti, 5 bronzi). La tabella riporta i risultati nominativi disponibili da fonti pubbliche; le restanti medaglie (2 ori, 3 argenti, 3 bronzi) sono da completare con i dati interni della società.",
+  "fonti": [
+    { "testata": "Sport Web Sicilia", "url": "https://sportwebsicilia.it/2024/10/31/jujtsu-mondiale-il-dojo-brilla-sui-podi/" },
+    { "testata": "FIJLKAM — Giovani ai Mondiali", "url": "https://www.fijlkam.it/arti-marziali/ju-jitsu/news-ju-jitsu/10459-stratosferica-italia-con-le-classi-giovanili-ai-mondiali-di-jujitsu.html" },
+    { "testata": "FIJLKAM — Adults & Para", "url": "https://www.fijlkam.it/arti-marziali/ju-jitsu/news-ju-jitsu/10448-giro-di-boa-ai-mondiali-di-jujitsu-tra-adults-e-para-14-medaglie-azzurre.html" },
+    { "testata": "Olympics.com — Evento ufficiale", "url": "https://www.olympics.com/en/sport-events/2024-jjif-ju-jitsu-world-championships-heraklion" }
+  ],
+  "evidenza": true
+}
